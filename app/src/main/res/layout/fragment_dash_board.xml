@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/dashboard_background"
+        android:orientation="vertical"
+        tools:context=".modules.dashboard.DashBoardFragment">
+
+
+        <LinearLayout
+            android:id="@+id/topLayout"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@color/circle_orange"
+            android:padding="3dp">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="5dp"
+                android:fontFamily="@font/robotobold"
+                android:text="Welcome"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:id="@+id/customerName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="@dimen/margin_4dp"
+                android:fontFamily="@font/robotobold"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_14sp" />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/topLayout"
+            android:orientation="vertical"
+            android:padding="@dimen/margin_size_20dp">
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/goldLoan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="6dp"
+                app:contentPadding="@dimen/padding_size_16dp">
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_alignParentEnd="true"
+                        android:padding="@dimen/padding_size_8dp"
+                        android:src="@drawable/ic_arrow_forward_red"
+                        android:tint="@color/circle_orange" />
+
+                    <ImageView
+                        android:id="@+id/goldLoanIcon"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_alignParentStart="true"
+                        android:padding="4dp"
+
+                        android:src="@drawable/pament_icon" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_gravity="center"
+                        android:layout_toEndOf="@id/goldLoanIcon"
+                        android:fontFamily="@font/robotobold"
+                        android:text="Online Gold Loan"
+                        android:textColor="@color/black" />
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/viewAccount"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_size_12dp"
+                app:cardCornerRadius="6dp"
+                app:contentPadding="@dimen/padding_size_16dp">
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_alignParentEnd="true"
+                        android:padding="@dimen/padding_size_8dp"
+                        android:src="@drawable/ic_arrow_forward_red"
+                        android:tint="@color/circle_orange" />
+
+                    <ImageView
+                        android:id="@+id/accountIcon"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_alignParentStart="true"
+                        android:padding="4dp"
+                        android:src="@drawable/account_icon"
+                       />
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_gravity="center"
+                        android:layout_toEndOf="@id/accountIcon"
+                        android:fontFamily="@font/robotobold"
+                        android:text="View Account Details"
+                        android:textColor="@color/black" />
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/payOnline"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_size_12dp"
+                app:cardCornerRadius="6dp"
+                app:contentPadding="@dimen/padding_size_16dp">
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_alignParentEnd="true"
+                        android:padding="@dimen/padding_size_8dp"
+                        android:src="@drawable/ic_arrow_forward_red"
+                        android:tint="@color/circle_orange" />
+
+
+                    <ImageView
+                        android:id="@+id/duesIcon"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_alignParentStart="true"
+                        android:padding="6dp"
+                        android:src="@drawable/payment_icon"
+                         />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_gravity="center"
+                        android:layout_toEndOf="@id/duesIcon"
+                        android:fontFamily="@font/robotobold"
+                        android:text="Check Dues and Pay Online"
+                        android:textColor="@color/black" />
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/logout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_size_12dp"
+                app:cardCornerRadius="6dp"
+                app:contentPadding="@dimen/padding_size_16dp">
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_alignParentEnd="true"
+                        android:padding="@dimen/padding_size_8dp"
+                        android:src="@drawable/ic_arrow_forward_red"
+                        android:tint="@color/circle_orange" />
+
+                    <ImageView
+                        android:id="@+id/logoutIcon"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:padding="6dp"
+                        android:src="@drawable/logout_icon"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_gravity="center"
+                        android:layout_toEndOf="@id/logoutIcon"
+                        android:fontFamily="@font/robotobold"
+                        android:text="Logout"
+                        android:textColor="@color/black" />
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+</layout>

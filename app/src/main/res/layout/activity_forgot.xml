@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/backGroundColor"
+        tools:context=".modules.login.ForgotActivity">
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:id="@+id/app_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:background="@color/circle_yellow">
+
+            <androidx.appcompat.widget.Toolbar
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:contentInsetStart="0dp">
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+
+                    <ImageView
+                        android:id="@+id/back"
+                        android:layout_width="50dp"
+                        android:layout_height="match_parent"
+                        android:padding="@dimen/padding_size_8dp"
+                        android:src="@drawable/back_white" />
+
+
+                    <TextView
+                        android:visibility="gone"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginStart="@dimen/margin_size_10dp"
+                        android:layout_toEndOf="@id/back"
+                        android:fontFamily="@font/robotobold"
+                        android:text="Forgot Password"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/text_size_21sp" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_toEndOf="@id/back"
+                        android:layout_marginStart="50dp"
+                        android:padding="5dp"
+                        android:src="@drawable/manappuram_logo"
+                        android:layout_height="wrap_content"/>
+
+                </RelativeLayout>
+
+            </androidx.appcompat.widget.Toolbar>
+
+
+        </com.google.android.material.appbar.AppBarLayout>
+
+        <TextView
+            android:id="@+id/title"
+            android:background="@color/circle_orange"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/robotomedium"
+            android:textColor="@color/white"
+            android:padding="3dp"
+            android:text="Forgot Password"
+            android:textSize="16sp"
+            />
+
+
+        <ScrollView
+            android:id="@+id/container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/app_toolbar"
+            android:orientation="vertical"
+            android:padding="@dimen/margin_size_12dp">
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card_login"
+                style="@style/CardStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="180dp"
+                        android:visibility="gone"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/manappuram_image" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:padding="@dimen/margin_size_20dp">
+
+                        <com.google.android.material.textfield.TextInputLayout
+                            android:id="@+id/mobileLayout"
+                            style="@style/EditTextStyle"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/margin_size_12dp"
+                            android:hint="Customer ID/Mobile No *"
+                            android:textColorHint="@color/black">
+
+                            <com.google.android.material.textfield.TextInputEditText
+                                android:id="@+id/edtMobile"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/roboto"
+                                android:inputType="number"
+                                android:maxLength="16"
+                                android:padding="@dimen/padding_size_16dp"
+                                android:text="00040003835376"
+                                android:singleLine="true"
+                                android:textColor="@color/black"
+                                android:textColorHint="@color/black"
+                                android:textSize="@dimen/text_size_14sp" />
+                        </com.google.android.material.textfield.TextInputLayout>
+
+
+                        <RelativeLayout
+                            android:id="@+id/btnSubmit"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="30dp"
+                            android:background="@drawable/button_with_icon"
+                            android:fitsSystemWindows="true">
+
+                            <TextView
+                                style="@style/ButtonWithIcon"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:letterSpacing="0.08"
+                                android:fontFamily="@font/roboto"
+                                android:text="SEND OTP" />
+
+                        </RelativeLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+        </ScrollView>
+
+    </LinearLayout>
+
+</layout>

@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--App Default-->
+    <string name="lang_selected">en</string>
+    <string name="app_name">Manappuram OGL-Dev</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="terms"><u>Terms &amp; Conditions</u></string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="lang_english">English</string>
+    <string name="lang_hindi">हिंदी</string>
+    <string name="lang_malayalam">മലയാളം</string>
+    <string name="lang_kannad">ಕನ್ನಡ</string>
+    <string name="lang_tamil">தமிழ்</string>
+    <string name="lang_telgu">తెలుగు</string>
+    <string name="toll_free">(Toll-Free - 24 X 7 hours)</string>
+    <string name="toll_free_1">1800-420-22-33 (Toll-Free - 24X7 hours)</string>
+    <string name="term_and_cond"><![CDATA[Terms & Conditions]]></string>
+    <string name="gram">gm</string>
+    <string name="rate_gram">Rate/gm</string>
+    <string name="max_amt">You can get max {{rupees}} after settlement</string>
+    <string name="above_99">You can get max {{rupees}} after settlement</string>
+    <string name="loan_limit_exceed">Entered amount exceeds maximum loan limit.</string>
+    <string name="otp_sent_to_mobile_new_loan">An OTP has been sent to your registered mob. +91 @{{number}} towards your loan application.</string>
+    <string name="max_net_amount">Max net amount available up to Rs {{rupees}} after adjusting settlement.</string>
+    <string name="help_line_no">1800-420-22-33</string>
+    <string name="less_then_min_amt">Minimum net amount should be {{rupees}} {{min_loan}}</string>
+    <string name="invalid_loan_amt_1">Repledge amount can be {{rupees}}0 or greater then {{rupees}}99</string>
+    <string name="circle_orange">#fc6621</string>
+    <string name="circle_yellow">#ffc500</string>
+    <string name="circle_green">#5aaf00</string>
+    <string name="circle_pink">#f924be</string>
+
+    <string name="repledge_success_msg">Your new loan has been successfully confirmed at @{{percent}} interest rate after the rebate against
+        your gold inventory and your previous loan has been settled. You will receive the balance amount @{{amount}} directly in your registered bank account.</string>
+    <string name="circle_blue">#007aff</string>
+    <string name="circle_red">#f60000</string>
+    <string name="circle_na">#f4f4f4</string>
+    <string name="termsandcond">General Information:
+
+1. For  availing  Online  Gold   Loan   Disbursement   Services   through   Manappuram   Finance Limited Online Gold Loan  Portal,  you  should  register  at  the  branch  where  you  intend  to  deposit the gold ornaments.
+2. You  can  access  our  Online   Gold   Loan   disbursement   services   only   after   getting authorisation from Manappuram Finance Limited.
+3. We  invite  you  to  track  your  account  frequently  on   the   Manappuram   Customer   Services portal for transacting or for viewing account  balances.  If  you  believe  that  any  information  relating to your account has any  discrepancy,  please  bring  it  to  the  notice  of  the  branch  manager immediately by e-mail or letter.
+4. All  payments  with  regard  to  Online   Gold   Loan   Disbursement   Services   through   Manappuram  Finance  Limited  Online  Gold  Loan  Portal  will  be  disbursed  to  the  Bank  Account confirmed by you at the time of registration., .
+5. At the time  of  registration,  your  mobile  number  will  be  verified  by  our  branch  officials  through  One  Time  Password  (  OTP  )  at  the  time  of  registration,and  all  subsequent  Online  gold  loan  disbursements  will  be  confirmed  though  OTP  sent  to  your  registered  mobile  number.
+
+Security:
+
+1. Manappuram Finance Limited will make  reasonable  use  of  available  technology  to  ensure  security and to prevent unauthorised access to  any  of  these  services.  Manappuram  Finance  Limited  Online  Gold  Loan   Service   Portal   is   VERISIGN   certified.   It   means   thatthe two-way   communication   is   secured   with   128-bit   SSL   encryption   technology,   which ensures the confidentiality of the data during transmission.
+2. You are welcome to access “Manappuram Finance Limited Online Gold Loan  Portal”  from  anywhere at anytime.
+3. There is no way  to  retrieve  a  password  from  the  system.  Therefore  if  a  customer  forgets  his/her password, he/she can reset the password by using “forgot password” option.
+
+Manappuram Finance’s terms:
+
+1. All  requests  received  from  customers  are  logged  for  backend  fulfilment  and  are  effective   from the time they are recorded at the branch.
+2. Rules  and  regulations  applicable  to  normal  banking   transactions   including   IMPS   (   Immediate Payment  Service)  regulations  in  India  will  be  applicable  for  the  transactions  executed through this portal.
+3. Manappuram  Finance  Limited  Online  Gold  Loan  Portal  service  cannot  be  claimed   as   a  matter  of  right.  Manappuram  Finance  Limited  may  also  convert  this  into  a  discretionary service anytime with prior intimation to customers.
+4. Manappuram  Finance  Limited  reserves  the  right  to  modify  the   services   offered   or   the   Terms of  Service  (Terms  &amp;  Conditions)of   “Manappuram   Finance   Limited   Online   Gold   Loan Portal”. The changes will be notified  to  the  customers  through  a  notification  on  the  Website.
+5. Manappuram Finance Limited will advise from time to time  the  Internet  software  such  as  browsers,  which  are  required  for  using  Manappuram  Finance  Limited  Online  Gold   Loan Portal.  There  will  be  no  obligation  on  the  part  of  Manappuram  Finance  Limited  to  support   all the  versions  of  these  internet  software`s.  The  Customer  shall  upgrade  his  software,  hardware and the operating systems at his cost from time  to  time  and  Manappuram  Finance  Limited  shall  be  under  no  obligation  to  support  the  software,   hardware,  operating  systems     of the customer and the same shall be the sole responsibility of the customer.
+6. Manappuram Finance Ltd, at its  sole  discretion,  shall  have  the  liberty  of  modification/  amendment/ withdrawal of this arrangement with prior intimation to customers.
+
+Customer’s obligations:
+
+1. The customer has an obligation to maintain  secrecy  in  regard  to  Username  and  Password  registered  with  Manappuram   Finance   Limited.   Manappuram   Finance   Limited   presupposes  that login using  valid  Username  and  Password  is  a  valid  session  initiated  by  none  other  than  the customer.
+2. Transaction  executed  through  a  valid  session  will  be  construed  by  Manappuram  Finance  Limited to have emanated from the registered customer and will be binding on him/her.
+3. All online Gold loan  disbursements  as  per  Manappuram  Finance  Limited  Online  Gold  Loan  Portal will be  processed  to  the  registered  Bank  account  of
+
+        only.  In  case  of  any  change  relating  to  Bank  account  details,  the  same  needs  to  be  informed  by  the  customer  to   the company and needsto be changed within the company records.
+4. All online Gold loan  disbursements  as  per  Manappuram  Finance  Limited  Online  Gold  Loan  Portal will  be  processed  on  taking  OTP  confirmation  that  is  sent  to  customer’s  registered  mobile number.  Any  change  in  the  registered  mobile  number  needs  to  be  informed  and  captured within the Manappuram Records.
+5. The customer will not attempt or  permit  others  to  attempt  to  access  “Manappuram  Finance  Limited Online Gold loan Portal” through any unlawful means.
+6. Valid   pawn  ticket  and  terms  and  conditions  are  sent  to  the  customer’s  email  ID  registered   with Manappuram Finance limited at the time of creation of User ID and Password. All communications shall be made by Manappuram Finance Limited in the said e mail ID.
+
+Liability of the User:
+
+1. The  User  alone  shall  be  liable  for  any  loss  from  unauthorized  transactions  in  his  account/sif  he  has breached the terms or contributed to caused the loss by negligent actions on his part such as
+:
+Keeping  a  written  or  electronic  record  of  Manappuram   Finance   Limited   Online   Gold  Loan Portal Password
+
+Disclosing or failing to  take  all  reasonable  steps  to  prevent  disclosure  of  Manappuram  Finance Limited Online Gold Loan Portal Password to anyone  including  any  minor, companystaff  and/or  failing  to  advise  the  company  of  such  disclosure  within  reasonable  time.
+2. Not informing Manappuram Finance Ltd in a reasonable  time  about  unauthorized  access  to  or  erroneous  transactions  in  the  Manappuram  Finance  Limited  Online   Gold   Loan   Portal   Manappuram Finance Limited shall, in no circumstances, be held  liable  by  the  Customer  if  Manappuram  Finance  Limited  Online  Gold  loan  Portal  access  is  not  available  in  the   desired manner for reasons including but  not  limited  to  natural  calamity,  flood,  fire  and  other  natural  disasters of  any  kind,  legal  restraints,  faults  in  the  telecommunication  network  or  Internet  or network  failure,  power  breakdown  or  UPS  breakdown,   software   or   hardware   failure   and   or   error or any other reason beyond the reasonable control of the Manappuram Finance Limited.  Manappuram Finance  Limited  shall  in  no  way  be  liable  for  any  loss  or  damage  that  may  occur  due  to  hacking  of  the  account  by  any  persons  other  than  the  User,  which  fits  in  the  definitions    of  a  ‘Cyber  Related  Crime’  as  accepted  internationally.   Manappuram   Finance   Limited   shall,  under  no  circumstances,  be  liable  for  any  damages   whatsoever   whether   such   damages   are   direct,  indirect,  incidental,  consequential  and  irrespective  of  whether  any  claim  is  based  on  loss     of  revenue,   investment,  production,  goodwill,  profit,  interruption  of  business  or  any  other  loss       of any character or nature whatsoever and whether sustained by the User or any other person.
+3. The Customer shall indemnify and hold Manappuram Finance Limited harmless  against  all  actions,claims, demands,  proceedings,  losses,  damages,  costs,  charges  and  expenses  whatsoever  which Manappuram Finance Limited may at any time incur, sustain,suffer  or  be  put  to  as  a  consequence  of  or  by  reason  of  arising  out  of  providing  Manappuram  Online  Gold  Loan  Portal     or by reason of Manappuram Finance Limited in good faith taking or refusing to take or
+omitting to take action on any instruction given by the Customer.
+
+Do’s&amp; Don’ts:
+1. The customer should keep his/her User ID and  password  strictly  confidential  and  should  not  divulge the same to  any  other  person.  Any  loss  sustained  by  the  customer  due  to  non-compliance  of  this  condition  will  be  at  his/her  own  risk  and  responsibility  and  Manappuram Finance Limited will not be liable for the same in any manner.
+2. The  customer  is  free  to  choose  a  password  of  his  /  her  own  for  “Manappuram  Finance  Limited Online Gold  loan  Portal”  services.  As  a  precaution,  a  password  that  is  generic  in  nature,  guessable  or  inferable  personal  data  such  as   name,   address,   telephone   member,   driving  license,  date  of  birth  etc.  is  best  avoided.  Similarly,  it  is  a  good  practice  to  commit  the password to memory rather than writing it down .
+3. It may not be safe to leave the computer unattended during a valid session. This might give access of account information to others.The venue of arbitration shall be in Kerala.
+
+
+General:
+All  disputes,  differences  and/or  claims  arising  out   of   or   touching   upon   this   arrangement,  whether during  its  subsistence  or  thereafter,  shall  be  settled  by  arbitration  in  accordance  with  the  provisions  of  the  Arbitration  and  Conciliation  Act,   1996,   or   any   statutory   amendments   thereof   and shall be  referred  to  the  Arbitration  of  a  Sole  Arbitrator  to  be  appointed  by  the  Company.  The  award  given by such Sole Arbitrator shall be final and binding on the Borrower and the Company
+
+I have received, read and fully understood the  aforesaid  terms  and  conditions  and/or have  independently  had  the  aforesaid  terms  and  conditions  translated  accurately  in  my  vernacular  language      and has completely and fully understood the same to my satisfaction
+
+
+</string>
+
+
+
+
+
+    <string name="action_settings">Settings</string>
+    <string name="permission_title">Need Permissions</string>
+    <string name="goto_settings">GOTO SETTINGS</string>
+    <string name="cancel">Cancel</string>
+    <string name="no_connection">No Internet Connection</string>
+    <string name="update_available_title">Upgrade available</string>
+    <string name="update_app">Please, update to latest version</string>
+    <string name="update">Update</string>
+    <string name="no_update">No, thanks</string>
+    <string name="view_history">View Pledge History</string>
+    <string name="hide_history">Hide Pledge History</string>
+    <string name="submit_autorepledge_review">PROCEED PAYMENT &amp; REPLEDGE</string>
+    <string name="language">Select Language</string>
+
+    <string name="home">Home</string>
+    <string name="my_profile">My Profile</string>
+    <string name="onetime">One Time Registration</string>
+    <string name="goal_loan_schemes">Gold Loan Schemes</string>
+    <string name="how_ogl_work">How OGL Works</string>
+    <string name="faqs">FAQs</string>
+    <string name="about_us">About Us</string>
+    <string name="transaction_history">Transaction History</string>
+    <string name="ogl_history">Pledge History &amp; Pawn Ticket</string>
+    <string name="contact_us">Contact Us / Help</string>
+    <string name="change_language">Change Language</string>
+    <string name="permission_msg">This app needs permission to use this feature. You can grant them in app settings.</string>
+    <string name="forget_password_msg">Enter valid Customer ID as provided by Manappuram, the OTP will be sent to your registered mobile number</string>
+    <string name="otp_sent_to_mobile">An OTP has been sent to your registered mobile no.</string>
+
+    <string name="password_length_msg">Password should contain minimum 8 or maximum 16 characters</string>
+    <string name="no_account_msg">Do not have an account?\u0020\u0020 Register</string>
+    <string name="already_register_msg">Already Registered?\u0020\u0020 Login</string>
+
+    <string name="effective_rate_info"> You\'re charged effective rate after deducting rebate from the actual interest rate.</string>
+    <string name="exceed_limit_msg">Exceeded number of retries</string>
+    <string name="resend_otp_msg">Your OTP will expire within </string>
+    <string name="customer_id_and_mob">Customer ID</string>
+    <string name="invalid_customer_id">Invalid Customer ID</string>
+    <string name="forget_password">Forgot Password</string>
+    <string name="customer_id">Customer ID</string>
+    <string name="mobile_num">Mobile Number</string>
+    <string name="submit_btn">Submit</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="username">Enter Customer ID/Mob No./Email</string>
+    <string name="login">LOGIN</string>
+    <string name="invalid_request_id">Invalid Request Id</string>
+    <string name="ok">Ok</string>
+    <string name="invalid_mobile">Invalid Mobile Number</string>
+    <string name="invalid_email">Invalid Email ID</string>
+    <string name="register">Register</string>
+    <string name="registration">Customer registration</string>
+    <string name="new_mpin">New MPIN</string>
+    <string name="confirm_mpin">Confirm MPIN</string>
+    <string name="skip_msg">Want to set MPIN later ?</string>
+    <string name="skip">Skip</string>
+    <string name="set_mpin">Set MPIN</string>
+    <string name="invalid_username">Invalid User ID</string>
+    <string name="invalid_password">Invalid Password</string>
+    <string name="mpin">MPIN</string>
+    <string name="mpin_login">MPIN Login</string>
+    <string name="enter_otp">Enter OTP</string>
+    <string name="enter_otp_confirm">Enter OTP To Download Pawn Ticket</string>
+    <string name="invalid_mpin">Invalid MPIN</string>
+    <string name="otp">OTP</string>
+    <string name="mpin_miss_match">MPIN Mismatch</string>
+    <string name="forget_mpin">Forget MPIN ?</string>
+    <string name="if_not_received">If not yet received</string>
+    <string name="new_pass">Set Password</string>
+    <string name="repledge_fail_">Your new loan request has failed. \n Please try again.</string>
+    <string name="password_miss_match">Password Mismatch</string>
+    <string name="reset_mpin">Reset MPIN</string>
+    <string name="proceed">Proceed</string>
+    <string name="confirm">Confirm</string>
+    <string name="btn_resend_otp">RESEND OTP</string>
+    <string name="enter_otp_new_loan">Enter OTP To Confirm Repledge</string>
+    <string name="enter_otp_onetime">Enter OTP To One Time Registration</string>
+    <string name="invalid_otp">Invalid OTP</string>
+    <string name="name">Name</string>
+    <string name="address">Address</string>
+    <string name="profile">Profile</string>
+    <string name="edit">Edit</string>
+    <string name="Rs">\u20B9</string>
+    <string name="inventory_id">Inventory ID</string>
+    <string name="details">Details</string>
+    <string name="detail">Detail</string>
+    <string name="select_scheme">Select Scheme</string>
+    <string name="scheme_name">Scheme Name</string>
+    <string name="scheme_id">Scheme ID</string>
+    <string name="days">Days</string>
+    <string name="Interest">Interest</string>
+    <string name="rebate">Rebate</string>
+    <string name="loan_limit">Loan limit for</string>
+    <string name="max_loan_limit">Max loan limit for</string>
+    <string name="new_loan_amount">New Loan Amount</string>
+    <string name="new_loan_account">New Loan Account</string>
+    <string name="loan_amount">Loan Amount</string>
+    <string name="existing_loan">Existing Loan</string>
+    <string name="existing_loan_no">Existing Loan No.</string>
+    <string name="effective_rate">Effective rate</string>
+    <string name="interest_last">Existing Loan</string>
+    <!-- <string name="no_active_loans">No Active Loans</string>-->
+    <string name="no_active_loans">No Payment Due</string>
+    <string name="no_inventories">No gold inventory found for this account.</string>
+    <string name="please_call_no_gold">Please visit any branch for new gold loan or call us for any query 18004202233</string>
+    <string name="existing_loan_interest">Existing Loan Settlement</string>
+    <string name="existing_loan_details">Existing Loan Details</string>
+    <string name="enter_amount">Enter Net Amount</string>
+    <string name="max">Max</string>
+    <string name="min">Min</string>
+    <string name="repledge">Repledge</string>
+    <string name="existing">Exisiting Loan</string>
+    <string name="due_date">Due date</string>
+    <string name="interest_due">Interest due</string>
+    <string name="interest_due_now">Interest Due Now</string>
+    <string name="pay_now">Pay Interest</string>
+    <string name="partial_payment">Partial Payment</string>
+    <string name="full_payment">Full Payment</string>
+    <string name="close_loan">Close Loan</string>
+    <string name="payable_after_settlement">Payable After Settlement</string>
+    <string name="principle_amt">Principle Amount</string>
+    <string name="processing_charge">Processing Charge</string>
+    <string name="inventory_date">Inventory Date</string>
+    <string name="maturity_date">Maturity Date</string>
+    <string name="principle_outstanding">Principle Outstanding</string>
+    <string name="interest_paid_upto">Interest paid upto</string>
+    <string name="status">Status</string>
+    <string name="item_name">Item Name</string>
+    <string name="item_details">Item Details</string>
+    <string name="item_count">Item Count</string>
+    <string name="stone_weight">Stone Weight</string>
+    <string name="actual_weight">Actual Weight</string>
+    <string name="net_weight">Net Weight</string>
+    <string name="remark">Remarks</string>
+    <string name="view_details">View Details</string>
+    <string name="from_date">From Date</string>
+    <string name="to_date">To Date</string>
+    <string name="loan_account">Loan Account</string>
+    <string name="loan_date">Loan Date</string>
+    <string name="loan_interest">Loan Interest</string>
+    <string name="debit_card">Debit Card</string>
+    <string name="banking_charge">Bank Charges</string>
+    <string name="select_payment_method">SELECT PAYMENT METHOD</string>
+    <string name="accept_term_and_condition">I Accept \nTerms &amp; Conditions</string>
+    <string name="pay_interest">Pay Interest</string>
+    <string name="final_payble_amount">Final Payable Amount</string>
+    <string name="net_banking">Net Banking</string>
+    <string name="last_paid_date">Last Paid Date</string>
+    <string name="last_paid">Last Paid</string>
+    <string name="pledge_date">Pledge Date</string>
+    <string name="interest_rebate">Interest Rebate</string>
+    <string name="loan_interest_payable">Loan Interest Payable</string>
+    <string name="settlement_amount">Settlement Amount</string>
+    <string name="other_charges">Other Charges</string>
+    <string name="enter_amount_for_patial_payment">Enter amount for partial payment</string>
+    <string name="principle_amount">Principle Amount</string>
+    <string name="processing_fees">Processing Fees</string>
+    <string name="pay_full">PAY FULL</string>
+    <string name="pay_partial">PAY PARTIAL</string>
+    <string name="make_payment">Make Payment</string>
+
+    <string name="last_pledge_date">Last Pledge Date</string>
+    <string name="repledge_to_reduce">Repledge to be eligible for 2% rebate</string>
+    <string name="repledge_fail">Repledge Fail</string>
+    <string name="empty_loan_value">Loan Amount cannot be empty</string>
+    <string name="invalid_loan_amt">Invalid Loan Amount</string>
+
+    <string name="pledge_details">Pledge Details</string>
+    <string name="settlement_details">Settlement Details</string>
+    <string name="disbursement_date">Disbursement Date</string>
+    <string name="inventory_details">Inventory Details</string>
+    <string name="applicant_details">Applicant Details</string>
+    <string name="bank_account">Bank Acount</string>
+    <string name="terms_condition">Terms &amp; Conditions</string>
+    <string name="duration">Duration</string>
+    <string name="bank">Bank</string>
+    <string name="ifsc_code">IFSC Code</string>
+    <string name="account_no">Account No.</string>
+    <string name="deduction_name">Deduction Name</string>
+    <string name="review_application">Review Application</string>
+    <string name="accept_terms_condition">I Accept Terms &amp; Conditions</string>
+    <string name="accept_terms_condition_repledge">I Accept \nTerms &amp; Conditions</string>
+    <string name="enter_min_max_amount">Enter amount between Min and Max</string>
+    <string name="max_loan_for">Max Loan for</string>
+    <string name="invalid_amount">Invalid Amount</string>
+    <string name="value_must_greater">Enter amount must be greater than minimum amount</string>
+    <string name="value_must_less">Enter amount must be less or equal to maximum amount</string>
+    <string name="otp_resend_success">OTP Resent Successfully</string>
+    <string name="logout">Logout</string>
+    <string name="my_profile_details">MY PROFILE DETAILS</string>
+    <string name="trans_no">Transaction no</string>
+    <string name="payment_success_msg">Your payment_type transaction towards loan account no. account_no has been successful.</string>
+    <string name="title_payment_receipt">PAYMENT RECEIPT</string>
+    <string name="save_receipt_as_screenshot">Save receipt as screenshot</string>
+    <string name="back_to_home">Back To Home</string>
+    <string name="date">Date</string>
+    <string name="amount_paid">Amount Paid</string>
+    <string name="payment_type">Payment Type</string>
+    <string name="failed_trans_title">FAILED TRANSACTION DETAILS</string>
+    <string name="try_again">Try Again</string>
+    <string name="payment_fail_msg">Your payment_type transaction towards loan account no. account_no has failed. Please try again.</string>
+    <string name="refund_process_msg">In case amount has been debited, please contact your bank. Usually, banks process  the refund within 7 days.</string>
+    <string name="title_pawn_receipt">PAWN RECEIPT</string>
+    <string name="title_pawn_ticket">PAWN TICKET</string>
+    <string name="scheme">Scheme</string>
+    <string name="payble_after_settlement">Payble After Settlement</string>
+    <string name="download">Download </string>
+    <string name="download_complete">Download Completed Successfully</string>
+    <string name="pawn_ticket_download">Your pawn ticket has been successfully downloaded.</string>
+    <string name="pawn_ticket">Pawn ticket</string>
+    <string name="download_pawn_ticket">Download Pawn ticket</string>
+    <string name="in">in</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="spcl_rebate_schemes">Special rebate \nschemes</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="enter_old_password">Enter Old Password</string>
+    <string name="select_lang">Select Language</string>
+    <string name="days_ago">Days ago</string>
+    <string name="something_went_wrong">Something went wrong please try again.</string>
+    <string name="invalid_session">Your session has expired. Please Login again.</string>
+    <string name="no_data">Unable to load what you are looking for. Please try again.</string>
+    <string name="network_failure">Unable to reach server. Please check your network connection.</string>
+    <string name="loading_data">Please wait while data is being loaded.</string>
+    <string name="future_day_error">Cannot select future date.</string>
+    <string name="from_day_error">From date cannot be before To date.</string>
+    <string name="to_day_error">To date cannot be after from date.</string>
+    <string name="no_day_selected_error">Please select from and to date.</string>
+    <string name="retry">Retry</string>
+    <string name="dismiss">Dismiss</string>
+    <string name="failed_trans_no">Failed transaction no</string>
+    <string name="payment">Payment</string>
+    <string name="enter_mpin">Enter Mpin</string>
+    <string name="my_gold">My Gold</string>
+    <string name="email_id">Email ID</string>
+    <string name="payment_success">Payment Success</string>
+    <string name="change_password">Change Password</string>
+    <string name="change_pin">Change MPIN</string>
+    <string name="contact_us_title">Contact Us</string>
+    <string name="enable_device_permission">Enable Device Permission to Access this feature.</string>
+    <string name="old_mpin">Old MPIN</string>
+    <string name="mpin_updated">MPIN Updated Successfully</string>
+    <string name="password_updated">Password Updated Successfully</string>
+    <string name="save">Save</string>
+    <string name="download_pawn">Download Pawn Ticket</string>
+    <string name="confirm_logout">Confirm Logout</string>
+    <string name="want_set_mpin_later">Want to set MPIN later ?</string>
+    <string name="session_expired">Your session has expired. Please relogin to use the app.</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="payment_failed">Payment Failed</string>
+    <string name="interest_payment">Interest Payment</string>
+    <string name="receipt_saved">Receipt Saved Successfully</string>
+    <string name="session_expire">Session Expire</string>
+    <string name="unsupported_device">Unsupported Device</string>
+    <string name="app_not_supported">The app is not supported for this device.</string>
+    <string name="back_press">Exit App</string>
+    <string name="your_session_exp">Your Session has been expired. Please Re-Login to continue.</string>
+    <string name="confirm_payment_cancel">Are you sure you want to cancel the payment process.</string>
+    <string name="rate">Rate</string>
+    <string name="invalid_login_credential">Invalid Username or Password</string>
+    <string name="enable">ENABLE</string>
+    <string name="exit_msg">Press back again to exit</string>
+    <string name="exit_msg1">Do you want to exit</string>
+    <string name="receipt_generated_at">Receipt Generated On</string>
+    <string name="upi">Bhim UPI</string>
+    <string name="amount_updated">Partial amount updated successfully</string>
+    <string name="final_settlement_amount">Final Settlement Amount</string>
+    <!--<string name="above_99">You can enter max {{rupees}} after adjusting settlement</string>-->
+    <string name="below_99">Maximum loan limit exceeded. Please pay first.</string>
+    <string name="equal_0">You can still repledge with NIL net amount.</string>
+    <string name="file_provider_authority" translatable="false">com.mgc.ogl.provider</string>
+
+    <string name="branch_locator">Branch Locator</string>
+    <string name="onetime_registration">One Time Registration</string>
+    <string name="otponetime">OTP</string>
+    <string name="reviewneft">Neft Details</string>
+
+    <string name="accept">ACCEPT</string>
+
+    <string name="revised_rebate_conditions">Revised rebate conditions</string>
+    <string name="i_hereby_agree_to_the_above_mentioned_revised_rebate_conditions">I hereby agree to the above mentioned revised Rebate conditions.</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="terms1" translatable="false">Thanks you for choosing Manappuram Online Gold Lone and welcome to hassle free receipt of loan</string>
+    <string name="terms2" translatable="false">Please read eligiility details for Online Gold Loan</string>
+    <string name="terms3" translatable="false">ELIGIBILITY</string>
+    <string name="terms4" translatable="false">	This facility is limited to existing customers of Manappuram Finance Limited.	Customer should have live  pledge account but the release of Gold ornaments was not done	Customer has to submit valid bank/NEFT document, KYC document and Online Gold Loan Registration Form, and it should be verified by MAFIL officials.</string>
+
+    <string name="addneet">Add NEFT/One Time Registration</string>
+    <string name="referfriend">Refer A Friend</string>
+    <string name="paymentout">Payment Outlet</string>
+    <string name="cusfeed">Customer Feedback</string>
+    <string name="bookappoinment">Book Appointment</string>
+    <string name="cobrand">Co-Branded Card</string>
+</resources>

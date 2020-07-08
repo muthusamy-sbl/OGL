@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/white"
+        tools:context=".modules.dashboardoptions.view.AmountActivity">
+
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:id="@+id/app_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:background="@color/circle_yellow">
+
+            <androidx.appcompat.widget.Toolbar
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:contentInsetStart="0dp">
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+
+                    <ImageView
+                        android:id="@+id/back"
+                        android:layout_width="50dp"
+                        android:layout_height="match_parent"
+                        android:padding="@dimen/padding_size_8dp"
+                        android:src="@drawable/back_white" />
+
+
+                    <TextView
+                        android:visibility="gone"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_toEndOf="@id/back"
+                        android:fontFamily="@font/robotobold"
+                        android:text="Finalizing Amount"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/text_size_21sp"
+                        android:textStyle="bold" />
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_toEndOf="@id/back"
+                        android:layout_marginStart="50dp"
+                        android:padding="5dp"
+                        android:src="@drawable/manappuram_logo"
+                        android:layout_height="wrap_content"/>
+
+                </RelativeLayout>
+
+            </androidx.appcompat.widget.Toolbar>
+
+
+        </com.google.android.material.appbar.AppBarLayout>
+
+        <TextView
+            android:id="@+id/title"
+            android:background="@color/circle_orange"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/robotomedium"
+            android:textColor="@color/white"
+            android:padding="3dp"
+            android:text="Finalizing Amount"
+            android:textSize="16sp"
+            />
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/app_toolbar">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingStart="@dimen/margin_size_20dp"
+                android:paddingEnd="@dimen/margin_size_20dp">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_size_16dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/roboto"
+                        android:text="Inventory ID" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/margin_4dp"
+                        android:fontFamily="@font/robotobold"
+                        android:text="8787868"
+                        android:textColor="@color/black_200" />
+
+                </LinearLayout>
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_size_16dp"
+                    android:background="@color/backGroundColor"
+                    android:padding="@dimen/margin_size_14dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/roboto"
+                        android:text="Last Loan Settled Amount" />
+
+
+                    <TextView
+                        android:id="@+id/tvlastSettledAmt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:fontFamily="@font/roboto" />
+
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/card_title_header"
+                    android:padding="@dimen/margin_size_14dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/roboto"
+                        android:text="Scheme Selected" />
+
+
+                    <TextView
+                        android:id="@+id/tvScheme"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:fontFamily="@font/roboto" />
+
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/backGroundColor"
+                    android:padding="@dimen/margin_size_14dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/roboto"
+                        android:text="Eligible Loan" />
+
+
+                    <TextView
+                        android:id="@+id/tvEligibleLoan"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:fontFamily="@font/roboto" />
+
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/card_title_header"
+                    android:padding="@dimen/margin_size_14dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/roboto"
+                        android:text="Available Balance" />
+
+
+                    <TextView
+                        android:id="@+id/tvBalance"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:fontFamily="@font/roboto" />
+
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/backGroundColor"
+                    android:padding="@dimen/margin_size_14dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/roboto"
+                        android:text="Stamp Duty" />
+
+
+                    <TextView
+                        android:id="@+id/tvStampDuty"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:fontFamily="@font/roboto" />
+
+
+                </RelativeLayout>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_size_20dp"
+                    android:fontFamily="@font/robotobold"
+                    android:text="Enter Required Loan Amount"
+                    android:textColor="@color/black_200" />
+
+                <EditText
+                    android:id="@+id/edtAmount"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_size_14dp"
+                    android:background="@drawable/curved_gray_border"
+                    android:maxLength="9"
+                     android:inputType="number"
+                    android:maxLines="1"
+                    android:padding="@dimen/padding_size_12dp" />
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_size_20dp"
+                    android:fontFamily="@font/roboto"
+                    android:text="The settlement amount of last loan taken against above mentioned inventory will be adjusted at the time of distursement of new loan."
+                    android:textColor="@color/black_200" />
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_size_24dp">
+
+
+                    <Button
+                        android:id="@+id/btnCalculator"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:background="@drawable/curved_yellow"
+                        android:backgroundTint="@color/yellow_100"
+                        android:onClick="gotoCalculator"
+                        android:paddingStart="@dimen/margin_size_24dp"
+                        android:paddingEnd="@dimen/margin_size_24dp"
+                        android:text="CALCULATOR"
+                        android:textColor="@color/black_200" />
+
+
+                    <Button
+                        android:id="@+id/btnContinue"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:background="@drawable/curved_yellow"
+                        android:backgroundTint="@color/yellow_100"
+                        android:onClick="clickContinue"
+                        android:paddingStart="@dimen/margin_size_24dp"
+                        android:paddingEnd="@dimen/margin_size_24dp"
+                        android:text="CONTINUE"
+                        android:textColor="@color/black_200" />
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+
+    </LinearLayout>
+
+</layout>

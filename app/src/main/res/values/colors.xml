@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--#CE3F37-->
+    <color name="colorPrimary">#ffc500</color>
+    <color name="colorPrimaryDark">#ffc500</color>
+    <color name="colorAccent">#d60129</color>
+    <color name="colorBrandYello">#ffc500</color>
+    <color name="transparent_g">#de000000</color>
+    <color name="dashboard_background">#eaeaea</color>
+    <color name="white">#ffffff</color>
+    <color name="pledge_card_color">#F4F4F4</color>
+    <color name="trans_history_header">#F4F4F4</color>
+    <color name="pledge_card_top_container_color">#f4f4f4</color>
+    <color name="almost_black">#333333</color>
+    <color name="black_200">#1f1f1f</color>
+    <color name="black_300">#de000000</color>
+    <color name="black">#000000</color>
+    <color name="black_400">#333333</color>
+    <color name="grey_400">#646464</color>
+    <color name="transparent">#80000000</color>
+    <color name="pure_transparent">#00000000</color>
+    <color name="trans">#80000000</color>
+    <color name="spinner_disabled_color">#44000000</color>
+    <color name="spinner_error_color">#E7492E</color>
+    <color name="grey_500">#de000000</color>
+    <color name="grey_300">#B3B3B3</color>
+    <color name="grey_200">#E1E1E1</color>
+    <color name="grey_100">#dddddd</color>
+    <color name="dark_grey_100">#666666</color>
+    <color name="repledge_button_bg_color">#B3B3B3</color>
+    <color name="paynow_button_bg_color">#656565</color>
+    <color name="red_100">#d0021b</color>
+    <color name="backGroundColor">#eaeaea</color>
+    <color name="text_color_full_payment">#de000000</color>
+    <color name="payment_method_btn_unchecked_color">#979797</color>
+    <color name="empty_btn_color_partial_payment">#c6c6c6</color>
+    <color name="text_color_nav_header">#666666</color>
+    <color name="card_title_header">#f4f4f4</color>
+    <color name="color_divider">#33666666</color>
+    <!-- Background color for light CardView. -->
+    <color name="opt_round_card_view_light_background">#FFFAFAFA</color>
+    <!-- Background color for dark CardView. -->
+    <color name="opt_round_card_view_dark_background">#FF202020</color>
+    <!-- Shadow color for the first pixels around CardView. -->
+    <color name="opt_round_card_view_shadow_start_color">#37000000</color>
+    <!-- Shadow color for the furthest pixels around CardView. -->
+    <color name="opt_round_card_view_shadow_end_color">#03000000</color>
+    <color name="colorPrimaryBorder">#e0e0e0</color>
+    <color name="colorDivider">#33666666</color>
+    <color name="otp_timer">#999999</color>
+    <color name="yellow_100">#ffc500</color>
+    <color name="circle_orange">#fc6621</color>
+    <color name="circle_yellow">#ffc500</color>
+    <color name="circle_green">#5aaf00</color>
+    <color name="circle_pink">#f924be</color>
+    <color name="circle_blue">#007aff</color>
+    <color name="circle_red">#f60000</color>
+    <color name="circle_na">@color/pledge_card_top_container_color</color>
+    <color name="ogl_hist_bg">#eaeaea</color>
+
+    <color name="splash_grey">#c9c9c9</color>
+    <color name="lightwhite">#EDECEC</color>
+    <color name="linkcolor">#090975</color>
+
+    <color name="transaprent_black">#33020202</color>
+</resources>

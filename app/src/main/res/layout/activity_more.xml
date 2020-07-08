@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent"
+        tools:context=".modules.more.MoreActivity">
+
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:id="@+id/app_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:background="@color/circle_yellow">
+
+            <androidx.appcompat.widget.Toolbar
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:contentInsetStart="0dp">
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+
+                    <ImageView
+                        android:id="@+id/back"
+                        android:layout_width="50dp"
+                        android:layout_height="match_parent"
+                        android:padding="@dimen/padding_size_8dp"
+                        android:src="@drawable/back_white" />
+
+
+                    <TextView
+                      android:visibility="gone"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginStart="@dimen/margin_size_10dp"
+                        android:layout_toEndOf="@id/back"
+                        android:fontFamily="@font/robotobold"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/text_size_21sp" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_toEndOf="@id/back"
+                        android:layout_marginStart="50dp"
+                        android:padding="5dp"
+                        android:src="@drawable/manappuram_logo"
+                        android:layout_height="wrap_content"/>
+
+                </RelativeLayout>
+
+            </androidx.appcompat.widget.Toolbar>
+
+
+        </com.google.android.material.appbar.AppBarLayout>
+
+        <TextView
+            android:id="@+id/title"
+            android:background="@color/circle_orange"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/robotomedium"
+            android:textColor="@color/white"
+            android:padding="3dp"
+            android:text="Forgot Password"
+            android:textSize="16sp"
+            />
+
+
+        <RelativeLayout
+            android:id="@+id/container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/app_toolbar" />
+
+
+    </LinearLayout>
+</layout>

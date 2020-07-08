@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/backGroundColor"
+        android:padding="@dimen/margin_size_10dp"
+        tools:context=".modules.more.AppointmentFragment">
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card_login"
+            style="@style/CardStyle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:padding="@dimen/padding_size_16dp">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/roboto"
+                        android:text="Do you want to visit the Branch?"
+                        android:textColor="@color/black_200" />
+
+
+                    <RadioGroup
+                        android:id="@+id/radioGroup"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/margin_size_14dp"
+                        android:orientation="horizontal">
+
+                        <RadioButton
+                            android:id="@+id/radioYes"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:buttonTint="@color/circle_orange"
+                            android:text="Yes" />
+
+                        <RadioButton
+                            android:id="@+id/radioNo"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="@dimen/margin_size_16dp"
+                            android:buttonTint="@color/circle_orange"
+                            android:text="No" />
+
+                    </RadioGroup>
+
+
+                    <LinearLayout
+                        android:id="@+id/addressLayout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/margin_size_20dp"
+                        android:orientation="vertical"
+                        android:visibility="gone">
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Provide Address for agent to visit your location"
+                            android:textColor="@color/circle_orange" />
+
+
+                        <com.google.android.material.textfield.TextInputLayout
+                            style="@style/EditTextStyle"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/margin_size_16dp"
+                            android:hint="Home Name/No*">
+
+                            <com.google.android.material.textfield.TextInputEditText
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/roboto"
+                                android:maxLength="50"
+                                android:padding="@dimen/padding_size_16dp"
+                                android:singleLine="true"
+                                android:textSize="@dimen/text_size_14sp" />
+                        </com.google.android.material.textfield.TextInputLayout>
+
+                        <com.google.android.material.textfield.TextInputLayout
+                            style="@style/EditTextStyle"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/margin_size_16dp"
+                            android:hint="Street Address*">
+
+                            <com.google.android.material.textfield.TextInputEditText
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/roboto"
+                                android:maxLength="50"
+                                android:padding="@dimen/padding_size_16dp"
+                                android:singleLine="true"
+                                android:textSize="@dimen/text_size_14sp" />
+                        </com.google.android.material.textfield.TextInputLayout>
+
+
+                        <com.google.android.material.textfield.TextInputLayout
+                            style="@style/EditTextStyle"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/margin_size_16dp"
+                            android:hint="Landmark*">
+
+                            <com.google.android.material.textfield.TextInputEditText
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/roboto"
+                                android:maxLength="50"
+                                android:padding="@dimen/padding_size_16dp"
+                                android:singleLine="true"
+                                android:textSize="@dimen/text_size_14sp" />
+                        </com.google.android.material.textfield.TextInputLayout>
+
+                        <com.google.android.material.textfield.TextInputLayout
+                            style="@style/EditTextStyle"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/margin_size_16dp"
+                            android:hint="City*">
+
+                            <com.google.android.material.textfield.TextInputEditText
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/roboto"
+                                android:maxLength="50"
+                                android:padding="@dimen/padding_size_16dp"
+                                android:singleLine="true"
+                                android:textSize="@dimen/text_size_14sp" />
+                        </com.google.android.material.textfield.TextInputLayout>
+
+                        <com.google.android.material.textfield.TextInputLayout
+                            style="@style/EditTextStyle"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/margin_size_16dp"
+                            android:hint="State*">
+
+                            <com.google.android.material.textfield.TextInputEditText
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/roboto"
+                                android:maxLength="50"
+                                android:padding="@dimen/padding_size_16dp"
+                                android:singleLine="true"
+                                android:textSize="@dimen/text_size_14sp" />
+                        </com.google.android.material.textfield.TextInputLayout>
+
+                        <com.google.android.material.textfield.TextInputLayout
+                            style="@style/EditTextStyle"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/margin_size_16dp"
+                            android:hint="Pincode*">
+
+                            <com.google.android.material.textfield.TextInputEditText
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/roboto"
+                                android:maxLength="6"
+                                android:inputType="number"
+                                android:padding="@dimen/padding_size_16dp"
+                                android:singleLine="true"
+                                android:textSize="@dimen/text_size_14sp" />
+                        </com.google.android.material.textfield.TextInputLayout>
+
+                    </LinearLayout>
+
+                    <Button
+                        android:id="@+id/btnSubmit"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/margin_size_20dp"
+                        android:fontFamily="@font/robotobold"
+                        android:padding="@dimen/padding_size_12dp"
+                        android:text="BOOK APPOINTMENT"
+                        android:textStyle="bold"
+                        android:visibility="gone" />
+
+                </LinearLayout>
+
+            </ScrollView>
+        </androidx.cardview.widget.CardView>
+
+
+    </RelativeLayout>
+
+</layout>

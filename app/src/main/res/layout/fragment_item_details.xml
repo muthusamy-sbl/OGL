@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout >
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:background="@android:color/white"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/yellow_100"
+            android:fontFamily="@font/robotobold"
+            android:padding="@dimen/padding_size_12dp"
+            android:text="Item Details"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_size_16sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:orientation="horizontal"
+            android:paddingStart="48dp"
+            android:paddingTop="@dimen/padding_size_12dp"
+            android:paddingEnd="@dimen/padding_size_8dp"
+            android:paddingBottom="@dimen/padding_size_12dp"
+            android:weightSum="3">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="start"
+                android:text="Item Name"
+                android:textColor="@color/black_200"
+                android:textSize="@dimen/text_size_12sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="end"
+                android:text="Item Count"
+                android:textColor="@color/black_200"
+                android:textSize="@dimen/text_size_12sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="end"
+                android:text="Net Wt"
+                android:textColor="@color/black_200"
+                android:textSize="@dimen/text_size_12sp" />
+
+        </LinearLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycler"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="@dimen/padding_size_8dp"
+            android:paddingEnd="@dimen/padding_size_8dp"
+            android:paddingBottom="@dimen/padding_size_12dp" />
+        <TextView
+            android:layout_width="100dp"
+            android:text="Done"
+            android:id="@+id/terms"
+            android:gravity="center"
+            android:padding="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/red_100"
+            android:fontFamily="@font/robotobold"
+            android:background="@drawable/curved_yellow"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+</layout>

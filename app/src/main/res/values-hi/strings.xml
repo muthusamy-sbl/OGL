@@ -1,0 +1,658 @@
+<resources>
+    <string name="lang_selected">en</string>
+    <string name="app_name">Manappuram OGL-Dev</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="terms"><u>Terms &amp; Conditions</u></string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="lang_english">English</string>
+    <string name="lang_hindi">हिंदी</string>
+    <string name="lang_malayalam">മലയാളം</string>
+    <string name="lang_kannad">ಕನ್ನಡ</string>
+    <string name="lang_tamil">தமிழ்</string>
+    <string name="lang_telgu">తెలుగు</string>
+    <string name="toll_free">(Toll-Free - 24 X 7 hours)</string>
+    <string name="toll_free_1">1800-420-22-33 (Toll-Free - 24X7 hours)</string>
+    <string name="term_and_cond"><![CDATA[Terms & Conditions]]></string>
+    <string name="gram">gm</string>
+    <string name="rate_gram">Rate/gm</string>
+    <string name="max_amt">You can get max {{rupees}} after settlement</string>
+    <string name="above_99">You can get max {{rupees}} after settlement</string>
+    <string name="loan_limit_exceed">Entered amount exceeds maximum loan limit.</string>
+    <string name="otp_sent_to_mobile_new_loan">An OTP has been sent to your registered mob. +91 @{{number}} towards your loan application.</string>
+    <string name="max_net_amount">Max net amount available up to Rs {{rupees}} after adjusting settlement.</string>
+    <string name="help_line_no">1800-420-22-33</string>
+    <string name="less_then_min_amt">Minimum net amount should be {{rupees}} {{min_loan}}</string>
+    <string name="invalid_loan_amt_1">Repledge amount can be {{rupees}}0 or greater then {{rupees}}99</string>
+    <string name="circle_orange">#fc6621</string>
+    <string name="circle_yellow">#ffc500</string>
+    <string name="circle_green">#5aaf00</string>
+    <string name="circle_pink">#f924be</string>
+
+    <string name="repledge_success_msg">Your new loan has been successfully confirmed at @{{percent}} interest rate after the rebate against
+        your gold inventory and your previous loan has been settled. You will receive the balance amount @{{amount}} directly in your registered bank account.</string>
+    <string name="circle_blue">#007aff</string>
+    <string name="circle_red">#f60000</string>
+    <string name="circle_na">#f4f4f4</string>
+    <string name="termsandcond">General Information:
+
+1. For  availing  Online  Gold   Loan   Disbursement   Services   through   Manappuram   Finance Limited Online Gold Loan  Portal,  you  should  register  at  the  branch  where  you  intend  to  deposit the gold ornaments.
+2. You  can  access  our  Online   Gold   Loan   disbursement   services   only   after   getting authorisation from Manappuram Finance Limited.
+3. We  invite  you  to  track  your  account  frequently  on   the   Manappuram   Customer   Services portal for transacting or for viewing account  balances.  If  you  believe  that  any  information  relating to your account has any  discrepancy,  please  bring  it  to  the  notice  of  the  branch  manager immediately by e-mail or letter.
+4. All  payments  with  regard  to  Online   Gold   Loan   Disbursement   Services   through   Manappuram  Finance  Limited  Online  Gold  Loan  Portal  will  be  disbursed  to  the  Bank  Account confirmed by you at the time of registration., .
+5. At the time  of  registration,  your  mobile  number  will  be  verified  by  our  branch  officials  through  One  Time  Password  (  OTP  )  at  the  time  of  registration,and  all  subsequent  Online  gold  loan  disbursements  will  be  confirmed  though  OTP  sent  to  your  registered  mobile  number.
+
+Security:
+
+1. Manappuram Finance Limited will make  reasonable  use  of  available  technology  to  ensure  security and to prevent unauthorised access to  any  of  these  services.  Manappuram  Finance  Limited  Online  Gold  Loan   Service   Portal   is   VERISIGN   certified.   It   means   thatthe two-way   communication   is   secured   with   128-bit   SSL   encryption   technology,   which ensures the confidentiality of the data during transmission.
+2. You are welcome to access “Manappuram Finance Limited Online Gold Loan  Portal”  from  anywhere at anytime.
+3. There is no way  to  retrieve  a  password  from  the  system.  Therefore  if  a  customer  forgets  his/her password, he/she can reset the password by using “forgot password” option.
+
+Manappuram Finance’s terms:
+
+1. All  requests  received  from  customers  are  logged  for  backend  fulfilment  and  are  effective   from the time they are recorded at the branch.
+2. Rules  and  regulations  applicable  to  normal  banking   transactions   including   IMPS   (   Immediate Payment  Service)  regulations  in  India  will  be  applicable  for  the  transactions  executed through this portal.
+3. Manappuram  Finance  Limited  Online  Gold  Loan  Portal  service  cannot  be  claimed   as   a  matter  of  right.  Manappuram  Finance  Limited  may  also  convert  this  into  a  discretionary service anytime with prior intimation to customers.
+4. Manappuram  Finance  Limited  reserves  the  right  to  modify  the   services   offered   or   the   Terms of  Service  (Terms  &amp;  Conditions)of   “Manappuram   Finance   Limited   Online   Gold   Loan Portal”. The changes will be notified  to  the  customers  through  a  notification  on  the  Website.
+5. Manappuram Finance Limited will advise from time to time  the  Internet  software  such  as  browsers,  which  are  required  for  using  Manappuram  Finance  Limited  Online  Gold   Loan Portal.  There  will  be  no  obligation  on  the  part  of  Manappuram  Finance  Limited  to  support   all the  versions  of  these  internet  software`s.  The  Customer  shall  upgrade  his  software,  hardware and the operating systems at his cost from time  to  time  and  Manappuram  Finance  Limited  shall  be  under  no  obligation  to  support  the  software,   hardware,  operating  systems     of the customer and the same shall be the sole responsibility of the customer.
+6. Manappuram Finance Ltd, at its  sole  discretion,  shall  have  the  liberty  of  modification/  amendment/ withdrawal of this arrangement with prior intimation to customers.
+
+Customer’s obligations:
+
+1. The customer has an obligation to maintain  secrecy  in  regard  to  Username  and  Password  registered  with  Manappuram   Finance   Limited.   Manappuram   Finance   Limited   presupposes  that login using  valid  Username  and  Password  is  a  valid  session  initiated  by  none  other  than  the customer.
+2. Transaction  executed  through  a  valid  session  will  be  construed  by  Manappuram  Finance  Limited to have emanated from the registered customer and will be binding on him/her.
+3. All online Gold loan  disbursements  as  per  Manappuram  Finance  Limited  Online  Gold  Loan  Portal will be  processed  to  the  registered  Bank  account  of  customer  only.  In  case  of  any  change  relating  to  Bank  account  details,  the  same  needs  to  be  informed  by  the  customer  to   the company and needsto be changed within the company records.
+4. All online Gold loan  disbursements  as  per  Manappuram  Finance  Limited  Online  Gold  Loan  Portal will  be  processed  on  taking  OTP  confirmation  that  is  sent  to  customer’s  registered  mobile number.  Any  change  in  the  registered  mobile  number  needs  to  be  informed  and  captured within the Manappuram Records.
+5. The customer will not attempt or  permit  others  to  attempt  to  access  “Manappuram  Finance  Limited Online Gold loan Portal” through any unlawful means.
+6. Valid   pawn  ticket  and  terms  and  conditions  are  sent  to  the  customer’s  email  ID  registered   with Manappuram Finance limited at the time of creation of User ID and Password. All communications shall be made by Manappuram Finance Limited in the said e mail ID.
+
+Liability of the User:
+
+1. The  User  alone  shall  be  liable  for  any  loss  from  unauthorized  transactions  in  his  account/sif  he  has breached the terms or contributed to caused the loss by negligent actions on his part such as
+:
+Keeping  a  written  or  electronic  record  of  Manappuram   Finance   Limited   Online   Gold  Loan Portal Password
+
+Disclosing or failing to  take  all  reasonable  steps  to  prevent  disclosure  of  Manappuram  Finance Limited Online Gold Loan Portal Password to anyone  including  any  minor, companystaff  and/or  failing  to  advise  the  company  of  such  disclosure  within  reasonable  time.
+2. Not informing Manappuram Finance Ltd in a reasonable  time  about  unauthorized  access  to  or  erroneous  transactions  in  the  Manappuram  Finance  Limited  Online   Gold   Loan   Portal   Manappuram Finance Limited shall, in no circumstances, be held  liable  by  the  Customer  if  Manappuram  Finance  Limited  Online  Gold  loan  Portal  access  is  not  available  in  the   desired manner for reasons including but  not  limited  to  natural  calamity,  flood,  fire  and  other  natural  disasters of  any  kind,  legal  restraints,  faults  in  the  telecommunication  network  or  Internet  or network  failure,  power  breakdown  or  UPS  breakdown,   software   or   hardware   failure   and   or   error or any other reason beyond the reasonable control of the Manappuram Finance Limited.  Manappuram Finance  Limited  shall  in  no  way  be  liable  for  any  loss  or  damage  that  may  occur  due  to  hacking  of  the  account  by  any  persons  other  than  the  User,  which  fits  in  the  definitions    of  a  ‘Cyber  Related  Crime’  as  accepted  internationally.   Manappuram   Finance   Limited   shall,  under  no  circumstances,  be  liable  for  any  damages   whatsoever   whether   such   damages   are   direct,  indirect,  incidental,  consequential  and  irrespective  of  whether  any  claim  is  based  on  loss     of  revenue,   investment,  production,  goodwill,  profit,  interruption  of  business  or  any  other  loss       of any character or nature whatsoever and whether sustained by the User or any other person.
+3. The Customer shall indemnify and hold Manappuram Finance Limited harmless  against  all  actions,claims, demands,  proceedings,  losses,  damages,  costs,  charges  and  expenses  whatsoever  which Manappuram Finance Limited may at any time incur, sustain,suffer  or  be  put  to  as  a  consequence  of  or  by  reason  of  arising  out  of  providing  Manappuram  Online  Gold  Loan  Portal     or by reason of Manappuram Finance Limited in good faith taking or refusing to take or
+omitting to take action on any instruction given by the Customer.
+
+Do’s&amp; Don’ts:
+1. The customer should keep his/her User ID and  password  strictly  confidential  and  should  not  divulge the same to  any  other  person.  Any  loss  sustained  by  the  customer  due  to  non-compliance  of  this  condition  will  be  at  his/her  own  risk  and  responsibility  and  Manappuram Finance Limited will not be liable for the same in any manner.
+2. The  customer  is  free  to  choose  a  password  of  his  /  her  own  for  “Manappuram  Finance  Limited Online Gold  loan  Portal”  services.  As  a  precaution,  a  password  that  is  generic  in  nature,  guessable  or  inferable  personal  data  such  as   name,   address,   telephone   member,   driving  license,  date  of  birth  etc.  is  best  avoided.  Similarly,  it  is  a  good  practice  to  commit  the password to memory rather than writing it down .
+3. It may not be safe to leave the computer unattended during a valid session. This might give access of account information to others.The venue of arbitration shall be in Kerala.
+
+
+General:
+All  disputes,  differences  and/or  claims  arising  out   of   or   touching   upon   this   arrangement,  whether during  its  subsistence  or  thereafter,  shall  be  settled  by  arbitration  in  accordance  with  the  provisions  of  the  Arbitration  and  Conciliation  Act,   1996,   or   any   statutory   amendments   thereof   and shall be  referred  to  the  Arbitration  of  a  Sole  Arbitrator  to  be  appointed  by  the  Company.  The  award  given by such Sole Arbitrator shall be final and binding on the Borrower and the Company
+
+I have received, read and fully understood the  aforesaid  terms  and  conditions  and/or have  independently  had  the  aforesaid  terms  and  conditions  translated  accurately  in  my  vernacular  language      and has completely and fully understood the same to my satisfaction
+
+
+</string>
+
+<string name="action_settings">सेटिंग
+ </string>
+    <string name="permission_title">आवश्यकता अनुमतियाँ
+ </string>
+    <string name="goto_settings">गोटो सेटिंग
+ </string>
+    <string name="cancel">रद्द करें
+ </string>
+    <string name="no_connection">कोई इंटरनेट कनेक्शन नहीं
+ </string>
+    <string name="update_available_title">उपलब्ध उन्नयन
+ </string>
+    <string name="update_app">कृपया, नवीनतम संस्करण में अपडेट करें
+ </string>
+    <string name="update">अद्यतन
+ </string>
+    <string name="no_update">नहीं, धन्यवाद
+ </string>
+    <string name="view_history">प्रतिज्ञा इतिहास देखें
+ </string>
+   <string name="hide_history">प्रतिज्ञा इतिहास छिपाएं
+ </string>
+    <string name="submit_autorepledge_review">प्रस्तावित भुगतान और रिपोर्ट
+ </string>
+    <string name="language">भाषा का चयन करें
+ </string>
+    <string name="home">होम
+ </string>
+    <string name="my_profile">मेरी प्रोफ़ाइल
+</string>
+    <string name="onetime">एक समय पंजीकरण
+ </string>
+    <string name="goal_loan_schemes">गोल्ड लोन योजनाएँ
+ </string>
+    <string name="how_ogl_work">ओजीएल कैसे काम करता है
+ </string>
+    <string name="faqs">पूछे जाने वाले प्रश्न
+ </string>
+    <string name="about_us">हमारे बारे में
+ </string>
+    <string name="transaction_history">लेन-देन इतिहास
+ </string>
+    <string name="ogl_history">प्रतिज्ञा इतिहास और प्यादा टिकट
+ </string>
+    <string name="contact_us">हमसे संपर्क करें / सहायता करें
+ </string>
+   <string name="change_language">भाषा बदलें
+ </string>
+    <string name="permission_msg">इस ऐप को इस सुविधा का उपयोग करने के लिए अनुमति की आवश्यकता है। आप उन्हें ऐप सेटिंग में अनुदान दे सकते हैं।
+ </string>
+    <string name="forget_password_msg">मान्य ग्राहक आईडी दर्ज करें जैसा कि मणप्पुरम द्वारा प्रदान किया गया है, ओटीपी आपके पंजीकृत मोबाइल नंबर पर भेजा जाएगा
+ </string>
+    <string name="otp_sent_to_mobile">आपके पंजीकृत मोबाइल नंबर पर एक ओटीपी भेजा गया है।
+ </string>
+
+    <string name="password_length_msg">पासवर्ड में न्यूनतम 8 या अधिकतम 16 वर्ण होने चाहिए
+ </string>
+    <string name="no_account_msg">खाता नहीं है?   रजिस्टर
+ </string>
+    <string name="already_register_msg">पहले से पंजीकृत है?    लॉगिन करें
+ </string>
+
+    <string name="effective_rate_info">आप वास्तविक ब्याज दर से छूट में कटौती के बाद प्रभावी दर वसूलते हैं।
+ </string>
+    <string name="exceed_limit_msg">रिट्रीट की अधिक संख्या
+ </string>
+    <string name="resend_otp_msg">आपका OTP भीतर समाप्त हो जाएगा
+ </string>
+    <string name="customer_id_and_mob">ग्राहक आईडी
+ </string>
+    <string name="invalid_customer_id">अमान्य ग्राहक आईडी
+ </string>
+    <string name="forget_password">पासवर्ड भूल गए
+ </string>
+    <string name="customer_id">ग्राहक आईडी
+ </string>
+    <string name="mobile_num">मोबाइल नंबर
+ जमा करें </string>
+    <string name="submit_btn">
+ </string>
+    <string name="password">पासवर्ड
+ </string>
+    <string name="confirm_password">पासवर्ड की पुष्टि करें
+ </string>
+    <string name="username">ग्राहक आईडी / Mob No./Email दर्ज करें
+ </string>
+    <string name="login">लॉगिन
+ </string>
+    <string name="invalid_request_id">अमान्य अनुरोध आईडी
+ </string>
+    <string name="ok">ठीक है
+</string>
+    <string name="invalid_mobile">अमान्य मोबाइल नंबर
+ </string>
+    <string name="invalid_email">अमान्य ईमेल आईडी
+ </string>
+    <string name="register">रजिस्टर
+ </string>
+    <string name="registration">ग्राहक पंजीकरण
+ </string>
+    <string name="new_mpin">नया एमपीआईएन
+ </string>
+    <string name="confirm_mpin">MPIN की पुष्टि करें
+ </string>
+    <string name="skip_msg">बाद में MPIN सेट करना चाहते हैं?
+ </string>
+    <string name="skip">छोड़ें
+ </string>
+    <string name="set_mpin">सेट MPIN
+ </string>
+    <string name="invalid_username">अमान्य उपयोगकर्ता आईडी
+ </string>
+    <string name="invalid_password">अमान्य पासवर्ड
+ </string>
+    <string name="mpin">एमपिन
+ </string>
+    <string name="mpin_login">एमपीआईएन लॉगिन
+ </string>
+    <string name="enter_otp">OTP दर्ज करें
+ </string>
+    <string name="enter_otp_confirm">पॉन्ट टिकट डाउनलोड करने के लिए ओटीपी डालें
+ </string>
+    <string name="invalid_mpin">अमान्य MPIN
+ </string>
+    <string name="otp">OTP
+ </string>
+    <string name="mpin_miss_match">MPIN बेमेल
+ </string>
+    <string name="forget_mpin">MPIN भूल जाओ?
+ </string>
+    <string name="if_not_received">यदि अभी तक नहीं मिला है
+ </string>
+    <string name="new_pass">पासवर्ड सेट करें
+ </string>
+    <string name="repledge_fail_">आपका नया ऋण अनुरोध विफल हो गया है। \\ n कृपया पुनः प्रयास करें।
+ </string>
+    <string name="password_miss_match">पासवर्ड मिसमैच
+ </string>
+    <string name="reset_mpin">MPIN रीसेट करें
+ के लिए आगे बढ़ें </string>
+    <string name="proceed">
+ </string>
+  <string name="confirm">पुष्टि
+ </string>
+    <string name="btn_resend_otp">परिणाम OTP
+ </string>
+    <string name="enter_otp_new_loan">रिपीट की पुष्टि करने के लिए ओटीपी दर्ज करें
+ </string>
+    <string name="enter_otp_onetime">एक बार पंजीकरण के लिए ओटीपी दर्ज करें
+ </string>
+    <string name="invalid_otp">अमान्य ओटीपी
+ </string>
+    <string name="name">नाम
+ </string>
+   <string name="address">पता
+ </string>
+    <string name="profile">प्रोफ़ाइल
+ </string>
+    <string name="edit">संपादित करें
+ </string>
+    <string name="Rs">\\ u20B9
+ </string>
+    <string name="inventory_id">इन्वेंटरी आईडी
+ </string>
+    <string name="details">विवरण
+ </string>
+    <string name="detail">विस्तार
+ </string>
+    <string name="select_scheme">योजना का चयन करें
+ </string>
+    <string name="scheme_name">योजना का नाम
+ </string>
+    <string name="scheme_id">योजना आईडी
+ </string>
+    <string name="days">दिन
+ </string>
+    <string name="Interest">ब्याज
+ </string>
+    <string name="rebate">छूट
+ </string>
+    <string name="loan_limit">के लिए ऋण सीमा
+ </string>
+    <string name="max_loan_limit">अधिकतम ऋण सीमा
+ </string>
+    <string name="new_loan_amount">नई ऋण राशि
+ </string>
+    <string name="new_loan_account">नया ऋण खाता
+ </string>
+   <string name="loan_amount">ऋण राशि
+ </string>
+    <string name="existing_loan">मौजूदा ऋण
+ </string>
+    <string name="existing_loan_no">मौजूदा ऋण संख्या
+ </string>
+    <string name="effective_rate">प्रभावी दर
+ </string>
+    <string name="interest_last">मौजूदा ऋण
+ </string>
+    <!-- <string name="no_active_loans">No Active Loans</string>-->
+  <string name="no_active_loans">कोई भुगतान देय नहीं है
+ </string>
+    <string name="no_inventories">इस खाते के लिए कोई स्वर्ण सूची नहीं मिली।
+ </string>
+    <string name="please_call_no_gold">कृपया नए गोल्ड लोन के लिए किसी भी शाखा में जाएं या हमें किसी भी प्रश्न के लिए 18004202233 पर कॉल करें
+ </string>
+    <string name="existing_loan_interest">मौजूदा ऋण निपटान
+ </string>
+    <string name="existing_loan_details">मौजूदा ऋण विवरण
+ </string>
+    <string name="enter_amount">नेट राशि दर्ज करें
+ </string>
+    <string name="max">मैक्स
+ </string>
+    <string name="min">मिन
+ </string>
+    <string name="repledge">Repledge
+ </string>
+    <string name="existing">ऋण को समाप्त करना
+ </string>
+    <string name="due_date">नियत तारीख
+ </string>
+    <string name="interest_due">देय ब्याज
+ </string>
+   <string name="interest_due_now">अब ब्याज देय
+ </string>
+    <string name="pay_now">ब्याज का भुगतान
+ </string>
+    <string name="partial_payment">आंशिक भुगतान
+ </string>
+    <string name="full_payment">पूर्ण भुगतान
+ </string>
+    <string name="close_loan">ऋण बंद करें
+ </string>
+    <string name="payable_after_settlement">निपटान के बाद देय
+ </string>
+    <string name="principle_amt">सिद्धांत राशि
+  </string>
+    <string name="processing_charge">प्रोसेसिंग चार्ज
+  </string>
+    <string name="inventory_date">इन्वेंटरी दिनांक
+  </string>
+    <string name="maturity_date">परिपक्वता तिथि
+  </string>
+    <string name="principle_outstanding">सिद्धांत उत्कृष्ट
+  </string>
+    <string name="interest_paid_upto">ब्याज का भुगतान
+  </string>
+    <string name="status">स्थिति
+  </string>
+    <string name="item_name">आइटम का नाम
+  </string>
+    <string name="item_details">आइटम विवरण
+  </string>
+    <string name="item_count">आइटम गणना
+  </string>
+    <string name="stone_weight">पत्थर का वजन
+  </string>
+    <string name="actual_weight">वास्तविक वजन
+  </string>
+    <string name="net_weight">नेट वजन
+  </string>
+    <string name="remark">टिप्पणियां
+  </string>
+    <string name="view_details">विवरण देखें
+  </string>
+    <string name="from_date">तिथि से
+  </string>
+    <string name="to_date">आज तक
+  </string>
+    <string name="loan_account">ऋण खाता
+  </string>
+    <string name="loan_date">ऋण दिनांक
+  </string>
+    <string name="loan_interest">ऋण ब्याज
+  </string>
+    <string name="debit_card">डेबिट कार्ड
+  </string>
+    <string name="banking_charge">बैंक शुल्क
+  </string>
+    <string name="select_payment_method">चयनित भुगतान विधि
+  </string>
+    <string name="accept_term_and_condition">मैं \\ nTerms और शर्तें स्वीकार करता हूं
+  </string>
+    <string name="pay_interest">ब्याज का भुगतान
+ </string>
+    <string name="final_payble_amount">अंतिम देय राशि
+  </string>
+    <string name="net_banking">नेट बैंकिंग
+  </string>
+    <string name="last_paid_date">अंतिम भुगतान तिथि
+  </string>
+    <string name="last_paid">अंतिम भुगतान
+  </string>
+    <string name="pledge_date">प्रतिज्ञा तिथि
+  </string>
+    <string name="interest_rebate">ब्याज छूट
+  </string>
+    <string name="loan_interest_payable">ऋण ब्याज देय
+  </string>
+    <string name="settlement_amount">निपटान राशि
+  </string>
+    <string name="other_charges">अन्य शुल्क
+  </string>
+    <string name="enter_amount_for_patial_payment">आंशिक भुगतान के लिए राशि दर्ज करें
+  </string>
+    <string name="principle_amount">सिद्धांत राशि
+  </string>
+    <string name="processing_fees">प्रोसेसिंग शुल्क
+ </string>
+    <string name="pay_full">भुगतान पूर्ण
+  </string>
+    <string name="pay_partial">भुगतान आंशिक
+  </string>
+    <string name="make_payment">भुगतान करें
+  </string>
+
+    <string name="last_pledge_date">अंतिम प्रतिज्ञा तिथि
+  </string>
+    <string name="repledge_to_reduce">2% छूट के लिए पात्र होने के लिए प्रतिशोध
+  </string>
+    <string name="repledge_fail">प्रतिफल विफल
+  </string>
+    <string name="empty_loan_value">ऋण राशि खाली नहीं हो सकती
+  </string>
+    <string name="invalid_loan_amt">अमान्य ऋण राशि
+  </string>
+
+    <string name="pledge_details">प्रतिज्ञा विवरण
+  </string>
+    <string name="settlement_details">निपटान विवरण
+  </string>
+    <string name="disbursement_date">संवितरण तिथि
+  </string>
+    <string name="inventory_details">इन्वेंटरी विवरण
+  </string>
+    <string name="applicant_details">आवेदक विवरण
+  </string>
+    <string name="bank_account">बैंक अकाउन्ट
+  </string>
+    <string name="terms_condition">नियम और शर्तें
+  </string>
+    <string name="duration">अवधि
+  </string>
+    <string name="bank">बैंक
+  </string>
+    <string name="ifsc_code">IFSC कोड
+  </string>
+    <string name="account_no">खाता संख्या
+  </string>
+    <string name="deduction_name">कटौती का नाम
+  </string>
+    <string name="review_application">आवेदन की समीक्षा करें
+  </string>
+    <string name="accept_terms_condition">मैं नियम और शर्तें स्वीकार करता हूं
+ </string>
+    <string name="accept_terms_condition_repledge">मैं \\ nTerms और शर्तें स्वीकार करता हूं
+  </string>
+    <string name="enter_min_max_amount">न्यूनतम और अधिकतम के बीच राशि दर्ज करें
+  </string>
+    <string name="max_loan_for">मैक्स लोन के लिए
+  </string>
+    <string name="invalid_amount">अमान्य राशि
+  </string>
+    <string name="value_must_greater">दर्ज राशि न्यूनतम राशि से अधिक होनी चाहिए
+  </string>
+    <string name="value_must_less">अधिकतम राशि के बराबर या उससे कम राशि दर्ज होनी चाहिए
+  </string>
+    <string name="otp_resend_success">ओटीपी रिसेंटली सफलतापूर्वक
+  </string>
+    <string name="logout">लॉगआउट
+  </string>
+    <string name="my_profile_details">मेरा प्रोफ़ाइल विवरण
+  </string>
+    <string name="trans_no">लेनदेन सं
+  </string>
+    <string name="payment_success_msg">ऋण खाते की ओर आपका भुगतान_ प्रकार का लेनदेन सं। account_no सफल रहा है।
+  </string>
+    <string name="title_payment_receipt">भुगतान रसीद
+ </string>
+    <string name="save_receipt_as_screenshot">स्क्रीनशॉट के रूप में रसीद सहेजें
+  </string>
+    <string name="back_to_home">घर वापस
+  </string>
+    <string name="date">तिथि
+  </string>
+    <string name="amount_paid">राशि का भुगतान
+  </string>
+    <string name="payment_type">भुगतान प्रकार
+  </string>
+    <string name="failed_trans_title">विफल परिवहन विवरण
+  </string>
+    <string name="try_again">फिर कोशिश करें
+  </string>
+    <string name="payment_fail_msg">ऋण खाता सं। की ओर आपका भुगतान_प्रभु लेनदेन। account_no विफल रहा है। कृपया पुन: प्रयास करें।
+  </string>
+    <string name="refund_process_msg">यदि मामले में डेबिट किया गया है, तो कृपया अपने बैंक से संपर्क करें। आमतौर पर, बैंक 7 दिनों के भीतर रिफंड की प्रक्रिया करते हैं।
+  </string>
+    <string name="title_pawn_receipt">PAWE RECEIPT
+  </string>
+    <string name="title_pawn_ticket">पृष्ठ टिकट
+  </string>
+    <string name="scheme">योजना
+  </string>
+    <string name="payble_after_settlement">निपटान के बाद भुगतान
+  </string>
+    <string name="download">डाउनलोड
+  </string>
+    <string name="download_complete">सफलतापूर्वक पूरा हुआ
+  </string>
+    <string name="pawn_ticket_download">आपका मोहरा टिकट सफलतापूर्वक डाउनलोड हो गया है।
+  </string>
+    <string name="pawn_ticket">प्यादा टिकट
+  </string>
+    <string name="download_pawn_ticket">प्यादा टिकट डाउनलोड करें
+  </string>
+    <string name="in">में
+  </string>
+    <string name="open">ओपन
+  </string>
+    <string name="close">बंद
+  </string>
+    <string name="spcl_rebate_schemes">विशेष छूट \\ nschemes
+  </string>
+    <string name="enter_password">पासवर्ड दर्ज करें
+  </string>
+    <string name="enter_old_password">पुराना पासवर्ड डालें
+  </string>
+    <string name="select_lang">भाषा का चयन करें
+  </string>
+    <string name="days_ago">दिन पहले
+  </string>
+    <string name="something_went_wrong">कुछ गलत हो गया कृपया फिर से प्रयास करें।
+  </string>
+    <string name="invalid_session">आपका सत्र समाप्त हो गया है। कृपया फिर भाग लें।
+  </string>
+    <string name="no_data">आप जो खोज रहे हैं उसे लोड करने में असमर्थ। कृपया पुन: प्रयास करें।
+  </string>
+    <string name="network_failure">सर्वर तक पहुंचने में असमर्थ। कृपया अपना नेटवर्क कनेक्शन जांचें।
+  </string>
+    <string name="loading_data">कृपया प्रतीक्षा करें जबकि डेटा लोड किया जा रहा है।
+  </string>
+    <string name="future_day_error">भविष्य की तारीख का चयन नहीं कर सकते।
+  </string>
+    <string name="from_day_error">तिथि से पहले तिथि नहीं हो सकती है।
+  </string>
+    <string name="to_day_error">आज से तारीख नहीं हो सकती।
+  </string>
+    <string name="no_day_selected_error">कृपया और दिनांक से चयन करें।
+  </string>
+    <string name="retry">पुन: प्रयास करें
+  </string>
+    <string name="dismiss">खारिज
+  </string>
+    <string name="failed_trans_no">विफल लेनदेन सं
+  </string>
+    <string name="payment">भुगतान
+  </string>
+    <string name="enter_mpin">एमपीएन दर्ज करें
+ </string>
+    <string name="my_gold">माय गोल्ड
+  </string>
+    <string name="email_id">ईमेल आईडी
+
+ </string>
+    <string name="payment_success">भुगतान सफलता
+ </string>
+    <string name="change_password">पासवर्ड बदलें
+ </string>
+    <string name="change_pin">MPIN बदलें
+ </string>
+    <string name="contact_us_title">हमसे संपर्क करें
+ </string>
+    <string name="enable_device_permission">इस सुविधा को एक्सेस करने के लिए डिवाइस अनुमति सक्षम करें।
+ </string>
+    <string name="old_mpin">पुराना एमपीआईएन
+ </string>
+    <string name="mpin_updated">MPIN अद्यतन सफलतापूर्वक
+ </string>
+    <string name="password_updated">पासवर्ड सफलतापूर्वक अपडेट किया गया
+ </string>
+    <string name="save">सहेजें
+ </string>
+    <string name="download_pawn">प्यादा टिकट डाउनलोड करें
+ </string>
+    <string name="confirm_logout">लॉगआउट की पुष्टि करें
+ </string>
+    <string name="want_set_mpin_later">बाद में MPIN सेट करना चाहते हैं?
+</string>
+    <string name="session_expired">आपका सत्र समाप्त हो गया है। एप्लिकेशन का उपयोग करने के लिए कृपया पुनः लोड करें।
+ </string>
+    <string name="yes">हाँ
+</string>
+    <string name="no">नहीं
+ </string>
+    <string name="payment_failed">भुगतान विफल
+ </string>
+    <string name="interest_payment">ब्याज भुगतान
+ </string>
+    <string name="receipt_saved">रसीद सफलतापूर्वक बच गई
+ </string>
+    <string name="session_expire">सत्र समाप्ति
+ </string>
+    <string name="unsupported_device">असमर्थित डिवाइस
+ </string>
+   <string name="app_not_supported">ऐप इस डिवाइस के लिए समर्थित नहीं है।
+ </string>
+    <string name="back_press">ऐप से बाहर निकलें
+ </string>
+    <string name="your_session_exp">आपका सत्र समाप्त हो गया है। जारी रखने के लिए कृपया पुनः लॉगिन करें।
+ </string>
+    <string name="confirm_payment_cancel">क्या आप सुनिश्चित हैं कि आप भुगतान प्रक्रिया को रद्द करना चाहते हैं।
+ </string>
+    <string name="rate">दर
+ </string>
+    <string name="invalid_login_credential">अमान्य उपयोगकर्ता नाम या पासवर्ड
+ </string>
+    <string name="enable">सक्षम
+ </string>
+    <string name="exit_msg">बाहर निकलने के लिए फिर से दबाएँ
+ </string>
+    <string name="exit_msg1">क्या आप बाहर निकलना चाहते हैं
+ </string>
+   <string name="receipt_generated_at">रसीद पर उत्पन्न
+ </string>
+    <string name="upi">भीम यूपीआई
+ </string>
+    <string name="amount_updated">आंशिक राशि सफलतापूर्वक अपडेट की गई
+ </string>
+   <string name="final_settlement_amount">अंतिम निपटान राशि
+ </string>
+    <!--<string name="above_99">You can enter max {{rupees}} after adjusting settlement</string>-->
+    <string name="below_99">अधिकतम ऋण सीमा पार हो गई। कृपया पहले भुगतान करें।
+ </string>
+    <string name="equal_0">आप अभी भी एनआईएल निवल राशि के साथ प्रतिपूर्ति कर सकते हैं।
+ </string>
+    <string name="file_provider_authority" translatable="false">com.mgc.ogl.provider</string>
+
+    <string name="branch_locator">शाखा लोकेटर
+ </string>
+    <string name="onetime_registration">एक समय पंजीकरण
+ </string>
+    <string name="otponetime">OTP
+ </string>
+    <string name="reviewneft">नेफ्ट विवरण
+ ​​</string>
+
+    <string name="accept">स्वीकार
+ </string>
+
+    <string name="revised_rebate_conditions">संशोधित छूट की स्थिति
+ </string>
+    <string name="i_hereby_agree_to_the_above_mentioned_revised_rebate_conditions">मैं इसके द्वारा उपरोक्त संशोधित रिबेट शर्तों से सहमत हूँ।
+ </string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">हैलो खाली टुकड़ा</string>
+<!-- Generated by Automatic String Resource Translation -->
+<!--          https://asrt.gluege.boerde.de             -->
+
+    <string name="addneet">एनईएफटी / वन टाइम पंजीकरण जोड़ें</string>
+    <string name="referfriend">मित्र को आमंत्रित करें</string>
+    <string name="paymentout">भुगतान आउटलेट</string>
+    <string name="cusfeed">उपभोक्ता की राय</string>
+    <string name="bookappoinment">निर्धारित तारीख बुक करना</string>
+    <string name="cobrand">सह-ब्रांड कार्ड</string>
+</resources>

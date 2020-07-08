@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <array name="language_array">
+        <item>@string/lang_english</item>
+        <item>@string/lang_hindi</item>
+        <item>@string/lang_malayalam</item>
+    </array>
+
+    <array name="terms_language_array">
+        <item>English-EN</item>
+        <item>हिंदी-HI</item>
+        <item>മലയാളം-MA</item>
+        <item>தமிழ்-TA</item>
+        <item>ಕನ್ನಡ-KA</item>
+        <item>తెలుగు-TE</item>
+        <item>मराठी-MR</item>
+        <item>ગુજરાતી-GU</item>
+        <item>ଓଡ଼ିଆ-OR</item>
+        <item>ਪੰਜਾਬੀ-PU</item>
+        <item>বাঙালি-BE</item>
+        <item>অসমীয়া-AS</item>
+    </array>
+
+    <array name="language">
+        <item>English-EN</item>
+        <item>हिंदी-HI</item>
+        <item>മലയാളം-MA</item>
+        <item>ಕನ್ನಡ-KA</item>
+        <item>தமிழ்-TA</item>
+        <item>తెలుగు-TE</item>
+    </array>
+
+    <array name="terms_language_array_1">
+        <item>English</item>
+        <item>हिंदी</item>
+        <item>മലയാളം</item>
+        <item>தமிழ்</item>
+        <item>ಕನ್ನಡ</item>
+        <item>తెలుగు</item>
+        <item>मराठी</item>
+        <item>ગુજરાતી</item>
+        <item>ଓଡ଼ିଆ</item>
+        <item>ਪੰਜਾਬੀ</item>
+        <item>বাঙালি</item>
+        <item>অসমীয়া</item>
+    </array>
+
+    <array name="pawn_ticket_language">
+        <item>English</item>
+        <item>हिंदी</item>
+        <item>മലയാളം</item>
+        <item>தமிழ்</item>
+        <item>ಕನ್ನಡ</item>
+        <item>తెలుగు</item>
+    </array>
+
+    <array name="nav_menu">
+        <item>@string/home</item>
+        <item>@string/my_profile</item>
+        <item>@string/addneet</item>
+        <item>@string/referfriend</item>
+        <item>@string/paymentout</item>
+        <item>@string/download_pawn</item>
+        <item>@string/cusfeed</item>
+        <item>@string/transaction_history</item>
+        <item>@string/ogl_history</item>
+        <item>@string/bookappoinment</item>
+        <item>@string/cobrand</item>
+        <item>@string/set_mpin</item>
+        <item>@string/change_pin</item>
+        <item>@string/branch_locator</item>
+        <item>@string/contact_us</item>
+        <item>@string/about_us</item>
+        <item>@string/faqs</item>
+        <item>@string/change_password</item>
+
+    </array>
+
+    <array name="nav_menu_mpin">
+        <item>@string/home</item>
+        <item>@string/my_profile</item>
+        <item>@string/goal_loan_schemes</item>
+        <item>@string/ogl_history</item>
+        <item>@string/transaction_history</item>
+        <item>@string/change_language</item>
+        <item>@string/change_password</item>
+        <item>@string/set_mpin</item>
+        <item>@string/how_ogl_work</item>
+        <item>@string/faqs</item>
+        <item>@string/contact_us</item>
+        <item>@string/about_us</item>
+        <item>@string/branch_locator</item>
+    </array>
+
+    <array name="nav_menu_login">
+        <item>@string/change_language</item>
+        <item>@string/goal_loan_schemes</item>
+        <item>@string/how_ogl_work</item>
+        <item>@string/faqs</item>
+        <item>@string/contact_us</item>
+        <item>@string/about_us</item>
+        <item>@string/branch_locator</item>
+    </array>
+
+
+
+</resources>

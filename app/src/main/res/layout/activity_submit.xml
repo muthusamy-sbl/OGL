@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:orientation="vertical"
+        tools:context=".modules.dashboardoptions.view.SubmitActivity">
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:id="@+id/app_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:background="@color/circle_yellow">
+
+            <androidx.appcompat.widget.Toolbar
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:contentInsetStart="0dp">
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+
+                    <ImageView
+                        android:id="@+id/back"
+                        android:layout_width="50dp"
+                        android:layout_height="match_parent"
+                        android:padding="@dimen/padding_size_8dp"
+                        android:src="@drawable/back_white" />
+
+
+                    <TextView
+                        android:visibility="gone"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_toEndOf="@id/back"
+                        android:fontFamily="@font/robotobold"
+                        android:text="Submit Application"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/text_size_21sp"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_toEndOf="@id/back"
+                        android:layout_marginStart="50dp"
+                        android:padding="5dp"
+                        android:src="@drawable/manappuram_logo"
+                        android:layout_height="wrap_content"/>
+                </RelativeLayout>
+
+
+            </androidx.appcompat.widget.Toolbar>
+
+
+        </com.google.android.material.appbar.AppBarLayout>
+
+        <TextView
+            android:id="@+id/title"
+            android:background="@color/circle_orange"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/robotomedium"
+            android:textColor="@color/white"
+            android:padding="3dp"
+            android:text="Submit Application"
+            android:textSize="16sp"
+            />
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/app_toolbar">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="@dimen/margin_size_24dp">
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/backGroundColor"
+                    android:padding="@dimen/margin_size_14dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/roboto"
+                        android:text="IFSC Code" />
+
+
+                    <TextView
+                        android:id="@+id/tvCustomerIfsc"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:fontFamily="@font/roboto" />
+
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/card_title_header"
+                    android:padding="@dimen/margin_size_14dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/roboto"
+                        android:text="Bank Name" />
+
+
+                    <TextView
+                        android:id="@+id/tvCustomerBank"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:fontFamily="@font/roboto" />
+
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/backGroundColor"
+                    android:padding="@dimen/margin_size_14dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/roboto"
+                        android:text="Account No." />
+
+
+                    <TextView
+                        android:id="@+id/tvCustomerAccountNum"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:fontFamily="@font/roboto" />
+
+
+                </RelativeLayout>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_size_16dp"
+                    android:fontFamily="@font/roboto"
+                    android:gravity="center"
+                    android:padding="@dimen/margin_size_20dp"
+                    android:text="Enter One Time Password send to your registered mobile number" />
+
+
+                <com.chaos.view.PinView
+                    android:id="@+id/pinView"
+                    style="@style/PinWidget.PinView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:cursorVisible="true"
+                    android:inputType="number"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    app:cursorWidth="2dp"
+                    app:itemCount="6"
+                    app:itemHeight="40dp"
+                    app:itemRadius="4dp"
+                    app:itemSpacing="10dp"
+                    app:itemWidth="40dp"
+                    app:lineColor="@color/grey_500"
+                    app:lineWidth="1.5dp"
+                    app:viewType="rectangle" />
+
+
+                <Button
+                    android:id="@+id/btnSubmit"
+                    android:layout_width="120dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="@dimen/margin_size_24dp"
+                    android:backgroundTint="@color/yellow_100"
+                    android:fontFamily="@font/robotobold"
+                    android:gravity="center"
+                    android:paddingStart="@dimen/margin_size_12dp"
+                    android:paddingEnd="@dimen/margin_size_12dp"
+                    android:text="SUBMIT"
+                    android:textColor="@color/black_200" />
+
+
+                <TextView
+                    android:id="@+id/resendOtp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="@dimen/margin_size_16dp"
+                    android:backgroundTint="@color/yellow_100"
+                    android:fontFamily="@font/roboto"
+                    android:padding="@dimen/margin_size_10dp"
+                    android:paddingStart="@dimen/margin_size_12dp"
+                    android:paddingEnd="@dimen/margin_size_12dp"
+                    android:text="Resend OTP"
+                    android:textColor="@color/black_200" />
+
+            </LinearLayout>
+
+        </ScrollView>
+
+
+    </LinearLayout>
+
+</layout>

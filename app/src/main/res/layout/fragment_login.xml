@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <!--        <variable-->
+        <!--            name="viewModel"-->
+        <!--            type="com.mgc.ogl.modules.registration.viewmodel.LoginViewModel" />-->
+
+        <!--        <import type="android.view.View" />-->
+    </data>
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/backGroundColor">
+
+        <ScrollView
+            android:id="@+id/scrollContainer"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="true">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card_login"
+                style="@style/CardStyle"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="15dp"
+                        android:layout_marginBottom="15dp"
+                        android:orientation="vertical">
+
+                        <com.google.android.material.tabs.TabLayout
+                            android:id="@+id/login_tab"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="10dp"
+                            app:tabBackground="@drawable/layout_tab_indicator"
+                            app:tabSelectedTextColor="@color/colorAccent"
+                            app:tabTextAppearance="@style/customfontstyle">
+
+                            <com.google.android.material.tabs.TabItem
+                                android:id="@+id/tab_password"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="@string/password" />
+
+                            <com.google.android.material.tabs.TabItem
+                                android:id="@+id/tab_mpin"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="@string/mpin" />
+                        </com.google.android.material.tabs.TabLayout>
+
+
+                        <LinearLayout
+                            android:id="@+id/layout_password_login"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/margin_size_24dp"
+                            android:orientation="vertical"
+                            android:visibility="visible">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginTop="5dp"
+                                android:layout_marginBottom="5dp"
+                                android:background="@drawable/linear_layour_round_box">
+
+                                <TextView
+                                    android:id="@+id/spinnerlang"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:clickable="false"
+                                    android:fontFamily="@font/roboto"
+                                    android:text="English"
+                                    android:textSize="@dimen/text_size_16sp"
+                                    android:padding="@dimen/margin_size_10dp"
+                                    android:theme="@style/SpinnerTheme" />
+                            </LinearLayout>
+
+
+                            <com.google.android.material.textfield.TextInputLayout
+                                android:id="@+id/username"
+                                style="@style/EditTextStyle"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="@dimen/margin_size_16dp"
+                                android:hint="@string/username">
+
+                                <com.google.android.material.textfield.TextInputEditText
+                                    android:id="@+id/username_input"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="@font/roboto"
+                                    android:maxLength="50"
+                                    android:singleLine="true"
+                                    android:hint="30380005969863"
+                                    android:text="00040003835376"
+                                    android:textSize="@dimen/text_size_16sp" />
+                            </com.google.android.material.textfield.TextInputLayout>
+
+                            <com.google.android.material.textfield.TextInputLayout
+                                android:id="@+id/password"
+                                style="@style/EditTextStyle"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="@dimen/margin_size_12dp"
+                                android:hint="@string/enter_password"
+                                app:passwordToggleEnabled="true">
+
+                                <com.google.android.material.textfield.TextInputEditText
+                                    android:id="@+id/password_input"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="@font/roboto"
+                                    android:inputType="textPassword"
+                                    android:singleLine="true"
+                                    android:text="dipin@1234"
+                                    android:textSize="@dimen/text_size_16sp" />
+                            </com.google.android.material.textfield.TextInputLayout>
+
+                            <TextView
+                                android:id="@+id/forget_password"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="end"
+                                android:layout_marginTop="10dp"
+                                android:fontFamily="@font/roboto"
+                                android:letterSpacing="0.05"
+                                android:text="@string/forget_password"
+                                android:textColor="@color/colorAccent"
+                                android:textSize="@dimen/text_size_14sp" />
+
+                            <RelativeLayout
+                                android:id="@+id/login"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginTop="30dp"
+                                android:background="@drawable/button_with_icon"
+                                android:fitsSystemWindows="true">
+
+                                <TextView
+                                    style="@style/ButtonWithIcon"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="@font/roboto"
+                                    android:text="@string/login"
+                                    android:textSize="@dimen/text_size_16sp"/>
+
+                            </RelativeLayout>
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/layout_mpin_login"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/margin_size_20dp"
+                            android:layout_marginBottom="@dimen/margin_size_20dp"
+                            android:gravity="center"
+                            android:orientation="vertical"
+                            android:visibility="gone">
+
+                            <com.chaos.view.PinView
+                                android:id="@+id/firstPinView"
+                                style="@style/PinWidget.PinView"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:cursorVisible="true"
+                                android:hint="Hint."
+                                android:inputType="number"
+                                android:textSize="18sp"
+                                android:textStyle="bold"
+                                app:cursorWidth="2dp"
+                                app:itemCount="4"
+                                app:itemHeight="48dp"
+                                app:itemRadius="4dp"
+                                app:itemSpacing="10dp"
+                                app:itemWidth="48dp"
+                                app:lineColor="@color/grey_500"
+                                app:lineWidth="1.5dp"
+                                app:viewType="rectangle" />
+
+                            <RelativeLayout
+                                android:id="@+id/mpinLogin"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginTop="30dp"
+                                android:background="@drawable/button_with_icon"
+                                android:fitsSystemWindows="true">
+
+                                <TextView
+                                    style="@style/ButtonWithIcon"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="@font/roboto"
+                                    android:text="@string/login" />
+
+                            </RelativeLayout>
+
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/register"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/scrollContainer"
+                        android:layout_marginTop="20dp"
+                        android:fontFamily="@font/roboto"
+                        android:padding="@dimen/margin_size_10dp"
+                        android:text="@string/no_account_msg"
+                        android:textColor="@color/black"
+                        android:textColorHighlight="@color/backGroundColor"
+                        android:textSize="@dimen/text_size_14sp" />
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:background="@drawable/linear_layour_top_boder"
+                        android:orientation="vertical">
+
+                        <com.github.aakira.expandablelayout.ExpandableLinearLayout
+                            android:id="@+id/dockmore"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            app:ael_expanded="false"
+                            app:ael_interpolator="accelerate">
+
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="0.5dp"
+                                android:background="@color/grey_400" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="8dp"
+                                android:gravity="center"
+                                android:orientation="horizontal">
+
+
+                                <TextView
+                                    android:id="@+id/btnDemoVideo"
+                                    style="@style/dockbarstyle"
+                                    android:layout_width="0dp"
+                                    android:layout_height="60dp"
+                                    android:layout_weight="1"
+                                    android:drawableTop="@drawable/demo_video_icon"
+                                    android:fontFamily="@font/roboto"
+                                    android:text="Demo Video" />
+
+
+                                <TextView
+                                    android:id="@+id/btnContact"
+                                    style="@style/dockbarstyle"
+                                    android:layout_width="0dp"
+                                    android:layout_height="60dp"
+                                    android:layout_weight="1"
+                                    android:drawableTop="@drawable/contact_icon"
+                                    android:fontFamily="@font/roboto"
+                                    android:text="Contact" />
+
+
+                                <TextView
+                                    android:id="@+id/btnFaq"
+                                    style="@style/dockbarstyle"
+                                    android:layout_width="0dp"
+                                    android:layout_height="60dp"
+                                    android:layout_gravity="center"
+                                    android:layout_weight="1"
+                                    android:drawableTop="@drawable/faq_icon"
+                                    android:fontFamily="@font/roboto"
+                                    android:text="FAQ" />
+
+
+                                <TextView
+                                    android:id="@+id/btnBook"
+                                    style="@style/dockbarstyle"
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:drawableTop="@drawable/book_icon"
+                                    android:fontFamily="@font/roboto"
+                                    android:text="Book\n Appointment" />
+
+                            </LinearLayout>
+
+
+                        </com.github.aakira.expandablelayout.ExpandableLinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="@dimen/margin_size_10dp"
+                            android:orientation="horizontal">
+
+
+                            <TextView
+                                android:id="@+id/schemlist"
+                                style="@style/dockbarstyle"
+                                android:layout_width="0dp"
+                                android:layout_height="55dp"
+                                android:layout_weight="1"
+                                android:drawableTop="@drawable/schemelist_icon"
+                                android:fontFamily="@font/roboto"
+                                android:text="Schem List"
+                                android:textColor="@color/black" />
+
+
+                            <TextView
+                                style="@style/dockbarstyle"
+                                android:layout_width="0dp"
+                                android:layout_height="55dp"
+                                android:layout_weight="1"
+                                android:drawableTop="@drawable/pay_icon"
+                                android:fontFamily="@font/roboto"
+                                android:text="Ouick Pay"
+                                android:textColor="@color/black" />
+
+
+                            <TextView
+                                android:id="@+id/locate"
+                                style="@style/dockbarstyle"
+                                android:layout_width="0dp"
+                                android:layout_height="55dp"
+                                android:layout_weight="1"
+                                android:drawableTop="@drawable/location_icon"
+                                android:fontFamily="@font/roboto"
+                                android:text="Locate Us"
+                                android:textColor="@color/black" />
+
+
+                            <TextView
+                                android:id="@+id/more"
+                                style="@style/dockbarstyle"
+                                android:layout_width="0dp"
+                                android:layout_height="55dp"
+                                android:layout_weight="1"
+                                android:drawableTop="@drawable/more_icon"
+                                android:fontFamily="@font/roboto"
+                                android:text="More"
+                                android:textColor="@color/black" />
+
+
+                        </LinearLayout>
+                    </LinearLayout>
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+        </ScrollView>
+    </RelativeLayout>
+</layout>

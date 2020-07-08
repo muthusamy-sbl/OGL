@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".modules.dashboardoptions.view.CommonActivity">
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:id="@+id/app_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:background="@color/circle_yellow">
+
+            <androidx.appcompat.widget.Toolbar
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:contentInsetStart="0dp">
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+
+                    <ImageView
+                        android:id="@+id/back"
+                        android:layout_width="50dp"
+                        android:layout_height="match_parent"
+                        android:padding="@dimen/padding_size_8dp"
+                        android:src="@drawable/back_white" />
+
+
+                    <TextView
+                      
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_toEndOf="@id/back"
+                        android:visibility="gone"
+                        android:fontFamily="@font/robotoblack"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/text_size_21sp"
+                        android:textStyle="bold" />
+                    <ImageView
+                        android:layout_width="wrap_content"
+
+                        android:layout_toEndOf="@id/back"
+
+                        android:layout_marginStart="50dp"
+                        android:src="@drawable/manappuram_logo"
+                        android:layout_height="wrap_content"/>
+
+                </RelativeLayout>
+
+            </androidx.appcompat.widget.Toolbar>
+
+
+        </com.google.android.material.appbar.AppBarLayout>
+
+        <TextView
+            android:id="@+id/title"
+            android:background="@color/circle_orange"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/robotoblack"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:padding="3dp"
+            android:textStyle="bold" />
+        <RelativeLayout
+            android:id="@+id/container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+</layout>

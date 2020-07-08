@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/backGroundColor"
+        android:padding="@dimen/padding_size_12dp"
+        tools:context=".modules.navigation.view.OglHistoryFragment">
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card_login"
+            style="@style/CardStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+<androidx.core.widget.NestedScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fillViewport="true"
+    >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="@dimen/margin_size_10dp">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Account Number *" />
+
+                <TextView
+                    android:id="@+id/selectPledge"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_size_8dp"
+                    android:background="@drawable/curved_gray_border"
+                    android:drawableEnd="@drawable/down_arrow"
+                    android:fontFamily="@font/roboto"
+                    android:gravity="center|start"
+                    android:hint="Select"
+                    android:padding="@dimen/padding_size_8dp"
+                    android:textColor="@color/black_200" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_size_14dp"
+                    android:text="From Date *" />
+
+                <TextView
+                    android:id="@+id/selectDate1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_size_8dp"
+                    android:background="@drawable/curved_gray_border"
+                    android:fontFamily="@font/roboto"
+                    android:hint=""
+                    android:padding="@dimen/padding_size_12dp"
+                    android:textColor="@color/black_200" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_size_14dp"
+                    android:text="To Date *" />
+
+                <TextView
+                    android:id="@+id/selectDate2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_size_8dp"
+                    android:background="@drawable/curved_gray_border"
+                    android:fontFamily="@font/roboto"
+                    android:hint=""
+                    android:padding="@dimen/padding_size_12dp"
+                    android:textColor="@color/black_200" />
+
+
+                <RelativeLayout
+                    android:id="@+id/btnSubmit"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:background="@drawable/button_with_icon"
+                    android:fitsSystemWindows="true">
+
+                    <TextView
+                        style="@style/ButtonWithIcon"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/roboto"
+                        android:text="SEARCH" />
+
+                </RelativeLayout>
+
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/recycler"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="@dimen/margin_size_24dp" />
+
+
+            </LinearLayout>
+</androidx.core.widget.NestedScrollView>
+        </androidx.cardview.widget.CardView>
+
+    </FrameLayout>
+
+</layout>

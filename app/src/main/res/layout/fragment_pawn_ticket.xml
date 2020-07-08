@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/backGroundColor"
+        android:padding="@dimen/padding_size_12dp"
+        tools:context=".modules.navigation.view.PawnTicketFragment">
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card_login"
+            style="@style/CardStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="@dimen/margin_size_20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Pledge Number*" />
+
+                <TextView
+                    android:id="@+id/selectPledge"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_size_14dp"
+                    android:background="@drawable/curved_gray_border"
+                    android:fontFamily="@font/roboto"
+                    android:hint="Select Pledge Number"
+                    android:text="0130380730014753"
+                    android:padding="@dimen/padding_size_12dp"
+                    android:textColor="@color/black_200" />
+
+
+                <Button
+                    android:id="@+id/btnSubmit"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_size_20dp"
+                    android:backgroundTint="@color/yellow_100"
+                    android:fontFamily="@font/robotobold"
+                    android:padding="@dimen/padding_size_12dp"
+                    android:text="PROCEED"
+                    android:textStyle="bold"
+                    android:visibility="visible" />
+
+                <LinearLayout
+                    android:id="@+id/otpLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:visibility="gone">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/margin_size_24dp"
+                        android:text="Enter OTP" />
+
+
+                    <com.chaos.view.PinView
+                        android:id="@+id/pinView"
+                        style="@style/PinWidget.PinView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/margin_size_20dp"
+                        android:cursorVisible="true"
+                        android:inputType="number"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        app:cursorWidth="2dp"
+                        app:itemCount="6"
+                        app:itemHeight="40dp"
+                        app:itemRadius="4dp"
+                        app:itemSpacing="10dp"
+                        app:itemWidth="40dp"
+                        app:lineColor="@color/grey_500"
+                        app:lineWidth="1dp"
+                        app:viewType="rectangle" />
+
+                    <RadioGroup
+                        android:id="@+id/radioGroup"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/margin_size_20dp"
+                        android:checkedButton="@id/radioEnglish"
+                        android:orientation="horizontal">
+
+                        <RadioButton
+                            android:id="@+id/radioEnglish"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:buttonTint="@color/circle_green"
+                            android:text="English" />
+
+                        <RadioButton
+                            android:id="@+id/radioTamil"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="@dimen/margin_size_16dp"
+                            android:buttonTint="@color/circle_green"
+                            android:text="தமிழ்" />
+
+                    </RadioGroup>
+
+
+                    <Button
+                        android:id="@+id/btnVerify"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/margin_size_20dp"
+                        android:backgroundTint="@color/yellow_100"
+                        android:fontFamily="@font/robotobold"
+                        android:padding="@dimen/padding_size_12dp"
+                        android:text="VERIFY"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+
+    </RelativeLayout>
+
+</layout>

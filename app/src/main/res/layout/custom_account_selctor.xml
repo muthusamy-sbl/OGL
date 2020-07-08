@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center">
+
+    <LinearLayout
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:background="@drawable/curved_bottom_white"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/title_simple_dialog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/curved_top_yellow"
+            android:fontFamily="@font/roboto"
+            android:gravity="center"
+            android:letterSpacing="0.15"
+            android:padding="@dimen/padding_size_16dp"
+            android:text="Please Select"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_16sp"
+            android:visibility="visible" />
+
+
+        <com.aigestudio.wheelpicker.WheelPicker
+            android:id="@+id/picker_ui_view"
+            android:layout_width="240dp"
+            android:layout_height="80dp"
+            app:wheel_item_space="@dimen/padding_size_12dp"
+            app:wheel_item_text_size="@dimen/text_size_16sp"
+            app:wheel_selected_item_text_color="@color/circle_orange" />
+
+        <View
+
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/backGroundColor" />
+
+
+        <TextView
+            android:id="@+id/btnSelect"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_size_12dp"
+            android:layout_marginBottom="@dimen/margin_size_12dp"
+            android:fontFamily="@font/robotobold"
+            android:gravity="center"
+            android:letterSpacing="0.12"
+            android:padding="@dimen/margin_size_10dp"
+            android:text="SELECT"
+            android:textColor="@color/red_100" />
+
+
+    </LinearLayout>
+
+</RelativeLayout>
